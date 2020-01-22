@@ -332,6 +332,11 @@
   -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1); }
 
+.btn-yellow.btn {
+  color: #2A2A2A; }
+  .btn-yellow.btn:hover {
+    color: #FFC20F; }
+
 .m-badge-yellow {
   color: #2A2A2A; }
 
@@ -948,5 +953,11 @@ input[type=number]::-webkit-outer-spin-button {
         .swal2-popup .swal2-actions button.swal2-cancel:hover {
           background-color: #FF0000 !important;
           color: white !important; }
+
+.m-aside-menu .m-menu__nav .m-menu__item > .m-menu__link .m-menu__link-title {
+  width: 100%; }
+
+.m-aside-left--minimize .m-menu__nav .m-menu__item > .m-menu__link .m-menu__link-title {
+  width: auto; }
 
 /*# sourceMappingURL=style.css.map */
