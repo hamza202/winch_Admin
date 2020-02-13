@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>WiNCH || Business Sector</title>
+    <title>WiNCH || Rush hours</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -571,284 +571,73 @@
                         </li>
                         <li>
                             <p class="m-0 color-gray">
-                                Business Sector
+                                Rush hours
                             </p>
                         </li>
                     </ul>
                 </div>
-                <form action="#">
-                    <div class="row p-col-10 mt-3">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Name</label>
-                                <input type="text" class="form-control m-input"
-                                       placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Mobile Number</label>
-                                <input type="number" class="form-control m-input"
-                                       placeholder="Mobile Number">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Email</label>
-                                <input type="email" class="form-control m-input"
-                                       placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Status</label>
-                                <select class="form-control m-bootstrap-select m_selectpicker" title="Customer Type"
-                                        data-size="4">
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Report</label>
-                                <select class="form-control m-bootstrap-select m_selectpicker" title="Report"
-                                        data-size="4">
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 ml-auto d-flex">
-                            <div class="row p-col-10 w-100 align-self-end m-0 mt-3">
-                                <div class="col pl-0">
-                                    <button type="button" class="btn btn-orange w-100">Show All</button>
+                <div class="small-gray-wall">
+                    <div class="white-card">
+                        <h5>
+                            Rush hours
+                        </h5>
+                        <form action="#">
+                            <div class="row align-items-end">
+                                <div class="col">
+                                    <div class="row ">
+                                        <div class="col-md-4">
+                                            <div class="form-group m-form__group">
+                                                <label>Day</label>
+                                                <select class="form-control m-bootstrap-select m_selectpicker" title="Day"
+                                                        data-size="4">
+                                                    <option value="1" selected>Saturday</option>
+                                                    <option value="2">Sunday</option>
+                                                    <option value="3">Monday</option>
+                                                    <option value="4">Tuesday</option>
+                                                    <option value="5">Wednesday</option>
+                                                    <option value="6">Thursday</option>
+                                                    <option value="7">Friday</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group m-form__group ">
+                                                <label>From</label>
+                                                <div class="time-date-container">
+                                                    <i class="icon icon-calendar_today"></i>
+                                                    <input type="text" class="form-control m-input m_timepicker_1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group m-form__group ">
+                                                <label>To</label>
+                                                <div class="time-date-container">
+                                                    <i class="icon icon-calendar_today"></i>
+                                                    <input type="text" class="form-control m-input m_timepicker_1">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col pr-0">
-                                    <button type="button" class="btn btn-blue w-100">Show Results</button>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-yellow btn-4 px-4 plus-minus">
+                                        <i class="icon icon-plus"></i>
+                                    </button>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="my-table mt-4">
-                    <div class="table-responsive-lg">
-                        <table class="table">
-                            <thead>
-                            <tr>
-                                <th>
-                                    No
-                                </th>
-                                <th>
-                                    Name
-                                </th>
-                                <th>
-                                    Mobile Number
-                                </th>
-                                <th>
-                                    Balance
-                                </th>
-                                <th>
-                                    Review
-                                </th>
-                                <th>
-                                    Status
-                                </th>
-                                <th>
-                                    Free Balance
-                                </th>
-                                <th>
-                                    Orders
-                                </th>
-                                <th>
-                                    Register Date
-                                </th>
-                                <th>
-                                    Action
-                                </th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-green win-badge--wide">Active</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-pink win-badge--wide">NotActive</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    Yesterday - 03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-pink win-badge--wide">NotActive</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    10/01/2019 - 03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-green win-badge--wide">Active</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="table-pagination">
-                        <ul class="list-inline d-inline-block">
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="icon-arrow-left"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                   1
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    2
-                                </a>
-                            </li>
-                            <li class="list-inline-item active">
-                                <a href="#">
-                                    3
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    4
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="icon-arrow-right"></i>
-                                </a>
-                            </li>
-                        </ul>
+                            <div class="row align-items-end mt-3">
+                                <div class="col">
+
+                                </div>
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-pink btn-4 px-4 plus-minus">
+                                        <i class="icon icon-minus"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
             </div>
@@ -874,28 +663,7 @@
 <script src="js/vendors.bundle.js" type="text/javascript"></script>
 <script src="js/scripts.bundle.js" type="text/javascript"></script>
 <script src="js/bootstrap-select.js" type="text/javascript"></script>
-<script src="js/canvasjs.min.js"></script>
-<script>
-    $(".dell-btn").click(function (e) {
-        swal({
-            title: "Are you sure?",
-            text: "You won't delete this row!",
-            showCancelButton: !0,
-            confirmButtonText: "Yes",
-            cancelButtonText: "No",
-            reverseButtons: !0
-        }).then((result) => {
-            if (result.value) {
-                Swal.fire(
-                    'Deleted!',
-                    'Your file has been deleted.',
-                    'success'
-                );
-                $(this).closest('tr').fadeOut(500)
-            }
-        })
-    })
-</script>
+<script src="js/bootstrap-timepicker.js"></script>
 <!--end::Global Theme Bundle -->
 
 </body>

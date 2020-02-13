@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>WiNCH || Business Sector</title>
+    <title>WiNCH || Service Provider</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -304,7 +304,7 @@
                             <span class="win-menu__link-text">Customers</span>
                         </a>
                     </li>
-                    <li class="win-menu__item win-menu__item--active" aria-haspopup="true">
+                    <li class="win-menu__item" aria-haspopup="true">
                         <a href="#" class="win-menu__link ">
                             <i class="win-menu__link-icon icon-bag"></i>
                             <span class="win-menu__link-text">Business Sector</span>
@@ -316,7 +316,7 @@
                             <span class="win-menu__link-text">Winch Owner</span>
                         </a>
                     </li>
-                    <li class="win-menu__item  win-menu__item--submenu" aria-haspopup="true" win-menu-submenu-toggle="hover">
+                    <li class="win-menu__item  win-menu__item--submenu win-menu__item--active" aria-haspopup="true" win-menu-submenu-toggle="hover">
                         <a href="javascript:;" class="win-menu__link win-menu__toggle">
                             <i class="win-menu__link-icon icon-truck"></i>
                             <span class="win-menu__link-title">
@@ -558,298 +558,308 @@
 
             <!-- END: Subheader -->
             <div class="win-content">
-                <div class="my-breadcrumb">
-                    <ul>
-                        <li>
-                            <a href="#" class="link-one d-flex align-items-center">
-                                <i class="icon-dashboard"></i>
-                                Dashboard
-                            </a>
-                        </li>
-                        <li>
-                            <i class="icon-arrow-right color-gray fs-15 px-1"></i>
-                        </li>
-                        <li>
-                            <p class="m-0 color-gray">
-                                Business Sector
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <form action="#">
-                    <div class="row p-col-10 mt-3">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Name</label>
-                                <input type="text" class="form-control m-input"
-                                       placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Mobile Number</label>
-                                <input type="number" class="form-control m-input"
-                                       placeholder="Mobile Number">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Email</label>
-                                <input type="email" class="form-control m-input"
-                                       placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Status</label>
-                                <select class="form-control m-bootstrap-select m_selectpicker" title="Customer Type"
-                                        data-size="4">
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Report</label>
-                                <select class="form-control m-bootstrap-select m_selectpicker" title="Report"
-                                        data-size="4">
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 ml-auto d-flex">
-                            <div class="row p-col-10 w-100 align-self-end m-0 mt-3">
-                                <div class="col pl-0">
-                                    <button type="button" class="btn btn-orange w-100">Show All</button>
-                                </div>
-                                <div class="col pr-0">
-                                    <button type="button" class="btn btn-blue w-100">Show Results</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="my-table mt-4">
-                    <div class="table-responsive-lg">
-                        <table class="table">
-                            <thead>
-                            <tr>
-                                <th>
-                                    No
-                                </th>
-                                <th>
-                                    Name
-                                </th>
-                                <th>
-                                    Mobile Number
-                                </th>
-                                <th>
-                                    Balance
-                                </th>
-                                <th>
-                                    Review
-                                </th>
-                                <th>
-                                    Status
-                                </th>
-                                <th>
-                                    Free Balance
-                                </th>
-                                <th>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="my-breadcrumb">
+                        <ul>
+                            <li>
+                                <a href="#" class="link-one d-flex align-items-center">
+                                    <i class="icon-dashboard"></i>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-one d-flex align-items-center">
+                                    <i class="icon-arrow-right color-gray fs-15 px-1"></i>
                                     Orders
-                                </th>
-                                <th>
-                                    Register Date
-                                </th>
-                                <th>
-                                    Action
-                                </th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-green win-badge--wide">Active</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-pink win-badge--wide">NotActive</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    Yesterday - 03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-pink win-badge--wide">NotActive</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    10/01/2019 - 03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-green win-badge--wide">Active</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="table-pagination">
-                        <ul class="list-inline d-inline-block">
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="icon-arrow-left"></i>
                                 </a>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                   1
-                                </a>
+                            <li>
+                                <i class="icon-arrow-right color-gray fs-15 px-1"></i>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    2
-                                </a>
-                            </li>
-                            <li class="list-inline-item active">
-                                <a href="#">
-                                    3
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    4
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="icon-arrow-right"></i>
-                                </a>
+                            <li>
+                                <p class="m-0 color-gray">
+                                    Order#!234 Details
+                                </p>
                             </li>
                         </ul>
                     </div>
+                    <div class="text-right"> <button type="button" class="btn btn-orange "><i class="fas fa-print mr-2"></i>Print Order</button>
+                        <button type="button" class="btn btn-blue "><i class="icon-chat_bubble mr-2"></i>Order Chat</button>
+                    </div>
+                </div>
+
+                <div class="row p-col-10 mt-3">
+                    <div class="w-25-xl col-lg-3 col-sm-6">
+                        <div class="statistics-card grayF-card colored-card br-8">
+                            <div class="statistics-card-content">
+                                <span class="d-block statistics-card-title">
+                                    Abd Al Aziz Saidy
+                                </span>
+                                <span class="d-block statistics-card-text fs-10">
+                                    AbdAlazizSaidy@gmail.com
+                                </span>
+                                <p class="mt-2 mb-0 fs-10 font-weight-bold"> <i class="icon-mobile_screen fs-13"></i> +966556678975</p>
+                            </div>
+
+                            <div class="statistics-card-icon-container ">
+                                <span>
+                                    <i class="icon-manegar color-pink"></i>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-25-xl col-lg-3 col-sm-6">
+                        <div class="statistics-card grayF-card colored-card br-8">
+                            <div class="statistics-card-content">
+                                <span class="d-block statistics-card-title">
+                                   Ahmed Salem
+                                </span>
+                                <span class="d-block statistics-card-text fs-10">
+                                    AbdAlazizSaidy@gmail.com
+                                </span>
+                                <p class="mt-2 mb-0 fs-10 font-weight-bold"> <i class="icon-mobile_screen fs-13"></i> +966556678975</p>
+                            </div>
+
+                            <div class="statistics-card-icon-container ">
+                                <span>
+                                    <i class="icon-truck color-orange"></i>
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-25-xl col-lg-3 col-sm-6">
+                        <div class="statistics-card black-card colored-card br-8">
+                            <div class="statistics-card-content ">
+                                <span class="d-block statistics-card-title">
+                                   Refregirator
+                                </span>
+                                <span class="d-block statistics-card-text fs-10">
+                                    Between cities /  Small Car
+                                </span>
+                                <p class="mt-2 mb-0 fs-10 font-weight-bold"> <i class="icon-coins fs-13"></i> Cash Payment Method</p>
+                            </div>
+
+                            <div class="statistics-card-icon-container ">
+                                <span>
+                                   <img src="icon/truck-yellow.svg" width="20" alt="">
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-25-xl col-lg-3 col-sm-6">
+
+                        <div class="statistics-card black-card colored-card br-8">
+                            <div class="statistics-card-content">
+                                <span class="d-block statistics-card-title">
+                                    35 km
+                                </span>
+                                <span class="d-block statistics-card-text fs-10">
+                                    expected cost 1200 SAR
+                                </span>
+                                <p class="mt-2 mb-0 fs-10 font-weight-bold"> <i class="icon-money fs-13"></i> Actual Cost 1250 SAR</p>
+                            </div>
+
+                            <div class="statistics-card-icon-container ">
+                                <span>
+                                    <i class="icon-blue-doc color-blue"></i>
+
+                                </span>
+                                <p>WiNCH Profit 129 SAR</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-12 p-0">
+
+                    <div class="statistics-card black-card colored-card br-8 d-block ">
+                        <div class="row m-0 align-items-center h-100-px">
+                            <div class="col-lg-3 col-md-6 ">
+                                <div class="overflow-auto d-flex align-items-center align-self-center">
+                                    <span class="redius bg-yellow float-left"></span>
+                                    <span class="h3 text-dark ml-3">Waiting</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="fs-17 text-dark"><i class=" fs-19 icon-calendar_today mr-2"></i> Create Date</div>
+                                <p class="m-0">20/11/2019 - 03:13 PM</p>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="fs-17 text-dark"><i class=" fs-19 icon-calendar_today mr-2"></i> Start Date</div>
+                                <p class="m-0">20/11/2019 - 03:13 PM</p>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                                <div class="fs-17 text-dark"><i class=" fs-19 icon-calendar_today mr-2"></i> End Date</div>
+                                <p class="m-0">20/11/2019 - 03:13 PM</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="col-lg-12 p-0 mt-4">
+                    <div class="statistics-card black-card bg-white br-8 d-block p-4 pb-5">
+                        <h4 class="mb-4">Shipment Details</h4>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="font-weight-bold mb-2">Recipient Shipment</div>
+                                <div class="br-8 black-card px-3 py-2">Ahmed Salem</div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="font-weight-bold mb-2">Mobile NUMBER</div>
+                                <div class="br-8 black-card px-3 py-2 d-flex"><i class="icon-mobile_screen fs-16"></i> +966556678975</div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="font-weight-bold mb-2">Order Details</div>
+                                <div class="br-8 black-card px-3 py-2">
+                                    Order DetailsOrder DetailsOrder DetailsOrder DetailsOrder DetailsOrder DetailsOrder DetailsOrder Details
+                                    Order DetailsOrder DetailsOrder DetailsOrder DetailsOrder DetailsOrder DetailsOrder DetailsOrder Details
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 p-0 mt-4">
+                    <div class="statistics-card black-card bg-white br-8 d-block p-4 pb-5">
+                        <h4 class="mb-4">Questions Answers</h4>
+                        <div class="row  justify-content-between  px-3">
+                            <div class="col-lg-3 col-md-6 p-0">
+                                <div class="font-weight-bold mb-4 fs-12">What kind of a House?</div>
+                                <div class=" fs-12 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow"><span>Apartment</span> <span class="icon-check"></span></div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 p-0">
+                                <div class="font-weight-bold mb-4 fs-12">How many rooms in the Old House?</div>
+                                <div class=" fs-12 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow"><span>Move some Furniture</span> <span class="icon-check"></span></div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 p-0">
+                                <div class="font-weight-bold mb-4 fs-12">How to move furniture from the old house?</div>
+                                <div class=" fs-12 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow"><span>Ground Floor</span> <span class="icon-check"></span></div>
+                                <div class=" fs-12 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow mt-3"><span>Elevator?</span> <span>Some furnitures.</span></div>
+                            </div>
+                        </div>
+
+                        <div class="row  justify-content-between mt-5 pt-5 px-3">
+                            <div class="col-lg-3 col-md-6 p-0">
+                                <div class="font-weight-bold mb-4 fs-12">How to move furniture to a new home?</div>
+                                <div class=" fs-12 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow"><span>Ground Floor</span> <span class="icon-check"></span></div>
+                                <div class=" fs-12 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow mt-3"><span>Elevator?</span> <span>Some furnitures.</span></div>
+
+                            </div>
+                            <div class="col-lg-3 col-md-6 p-0">
+                                <div class="font-weight-bold mb-4 fs-12">Do you need packaging services?</div>
+                                <div class=" fs-12 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow"><span>Yes, I need to pack all the furniture</span> <span class="icon-check"></span></div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 p-0">
+                                <div class="font-weight-bold mb-4 fs-12">Do you need the following additional services?</div>
+                                <div class=" fs-12 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow"><span>Installation&dismantling Technician </span> <span class="icon-check"></span></div>
+                                <div class=" fs-12 mt-3 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow"><span>Air Conditioning Technician </span> <span class="icon-check"></span></div>
+                                <div class= " fs-12 mt-3 br-8 black-card px-3 py-1 d-flex justify-content-between p-2 align-items-center border-yalow"><span>Electrician </span> <span class="icon-check"></span></div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="my-table mt-5">
+                    <h4>History</h4>
+                    <div class="table-responsive-lg">
+                        <table class="table">
+
+                            <tbody>
+                            <tr>
+                                <td>
+                                    Time
+                                </td>
+                                <td>
+                                    Provider
+                                </td>
+                                <td>
+                                    Status
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    20/11/2019 - 03:13 PM
+                                </td>
+                                <td>
+                                    <a href="#" class="link-one">
+                                        Moamer Sawafiri
+                                    </a>
+
+                                </td>
+                                <td>
+                                    <span class="win-badge  win-badge-green win-badge--wide">Complete</span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    20/11/2019 - 03:13 PM
+                                </td>
+                                <td>
+                                    <a href="#" class="link-one">
+                                        Moamer Sawafiri
+                                    </a>
+
+                                </td>
+                                <td>
+                                    <span class="win-badge  win-badge-yellow win-badge--wide">Blackout</span>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    20/11/2019 - 03:13 PM
+                                </td>
+                                <td>
+                                    <a href="#" class="link-one">
+                                        Moamer Sawafiri
+                                    </a>
+
+                                </td>
+                                <td>
+                                    <span class="win-badge  win-badge-pink win-badge--wide">Cancelled</span>
+                                </td>
+
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="col-lg-12 p-0 mt-4">
+                        <div class="statistics-card black-card bg-white br-8 d-block p-4 pb-5">
+                            <h4 class="mb-4">Rate & Reviews</h4>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="font-weight-bold mb-2">Customer</div>
+                                    <div class="br-8 black-card px-5 py-3">
+                                        Ahmed was great customer I am very happy for our great relation and hope to go more and more.
+                                        Thanks
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="font-weight-bold mb-2">Provider</div>
+                                    <div class="br-8 black-card px-5 py-3">
+                                        And Alaziz was great customer I am very happy for our great relation and hope to go more and more.
+                                        Thanks
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

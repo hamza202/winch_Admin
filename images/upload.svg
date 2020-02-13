@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+  <g id="Group_7526" data-name="Group 7526" transform="translate(-306 -237)">
+    <g id="Rectangle_5279" data-name="Rectangle 5279" transform="translate(306 237)" fill="none" stroke="#9c9c9d" stroke-width="1.5" stroke-dasharray="6 6">
+      <rect width="45" height="45" rx="8" stroke="none"/>
+      <rect x="0.75" y="0.75" width="43.5" height="43.5" rx="7.25" fill="none"/>
+    </g>
+    <g id="camera_alt-24px" transform="translate(317 249)">
+      <path id="Path_19054" data-name="Path 19054" d="M0,0H24V24H0Z" fill="none"/>
+      <path id="Path_19055" data-name="Path 19055" d="M19.946,4.03h-3.16L14.961,2H8.979L7.154,4.03H3.994A2.018,2.018,0,0,0,2,6.06V18.242a2.018,2.018,0,0,0,1.994,2.03H19.946a2.018,2.018,0,0,0,1.994-2.03V6.06A2.018,2.018,0,0,0,19.946,4.03Zm0,14.211H3.994V6.06H8.032L9.856,4.03h4.227l1.824,2.03h4.038ZM11.97,7.075a5.076,5.076,0,1,0,4.985,5.075A5.033,5.033,0,0,0,11.97,7.075Zm0,8.121a3.046,3.046,0,1,1,2.991-3.045A3.027,3.027,0,0,1,11.97,15.2Z" transform="translate(0.03 0.03)" fill="#9c9c9d"/>
+    </g>
+  </g>
+</svg>

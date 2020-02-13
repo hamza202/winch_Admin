@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>WiNCH || Business Sector</title>
+    <title>WiNCH || Service Provider</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -304,7 +304,7 @@
                             <span class="win-menu__link-text">Customers</span>
                         </a>
                     </li>
-                    <li class="win-menu__item win-menu__item--active" aria-haspopup="true">
+                    <li class="win-menu__item" aria-haspopup="true">
                         <a href="#" class="win-menu__link ">
                             <i class="win-menu__link-icon icon-bag"></i>
                             <span class="win-menu__link-text">Business Sector</span>
@@ -316,7 +316,7 @@
                             <span class="win-menu__link-text">Winch Owner</span>
                         </a>
                     </li>
-                    <li class="win-menu__item  win-menu__item--submenu" aria-haspopup="true" win-menu-submenu-toggle="hover">
+                    <li class="win-menu__item  win-menu__item--submenu win-menu__item--active" aria-haspopup="true" win-menu-submenu-toggle="hover">
                         <a href="javascript:;" class="win-menu__link win-menu__toggle">
                             <i class="win-menu__link-icon icon-truck"></i>
                             <span class="win-menu__link-title">
@@ -557,300 +557,235 @@
         <div class="win-grid__item win-grid__item--fluid win-wrapper">
 
             <!-- END: Subheader -->
-            <div class="win-content">
-                <div class="my-breadcrumb">
-                    <ul>
-                        <li>
-                            <a href="#" class="link-one d-flex align-items-center">
-                                <i class="icon-dashboard"></i>
-                                Dashboard
-                            </a>
-                        </li>
-                        <li>
-                            <i class="icon-arrow-right color-gray fs-15 px-1"></i>
-                        </li>
-                        <li>
-                            <p class="m-0 color-gray">
-                                Business Sector
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <form action="#">
-                    <div class="row p-col-10 mt-3">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Name</label>
-                                <input type="text" class="form-control m-input"
-                                       placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Mobile Number</label>
-                                <input type="number" class="form-control m-input"
-                                       placeholder="Mobile Number">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Email</label>
-                                <input type="email" class="form-control m-input"
-                                       placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Status</label>
-                                <select class="form-control m-bootstrap-select m_selectpicker" title="Customer Type"
-                                        data-size="4">
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Report</label>
-                                <select class="form-control m-bootstrap-select m_selectpicker" title="Report"
-                                        data-size="4">
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 ml-auto d-flex">
-                            <div class="row p-col-10 w-100 align-self-end m-0 mt-3">
-                                <div class="col pl-0">
-                                    <button type="button" class="btn btn-orange w-100">Show All</button>
-                                </div>
-                                <div class="col pr-0">
-                                    <button type="button" class="btn btn-blue w-100">Show Results</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="my-table mt-4">
-                    <div class="table-responsive-lg">
-                        <table class="table">
-                            <thead>
-                            <tr>
-                                <th>
-                                    No
-                                </th>
-                                <th>
-                                    Name
-                                </th>
-                                <th>
-                                    Mobile Number
-                                </th>
-                                <th>
-                                    Balance
-                                </th>
-                                <th>
-                                    Review
-                                </th>
-                                <th>
-                                    Status
-                                </th>
-                                <th>
-                                    Free Balance
-                                </th>
-                                <th>
+            <div class="win-content ">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="my-breadcrumb">
+                        <ul>
+                            <li>
+                                <a href="#" class="link-one d-flex align-items-center">
+                                    <i class="icon-dashboard"></i>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-one d-flex align-items-center">
+                                    <i class="icon-arrow-right color-gray fs-15 px-1"></i>
                                     Orders
-                                </th>
-                                <th>
-                                    Register Date
-                                </th>
-                                <th>
-                                    Action
-                                </th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-green win-badge--wide">Active</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-pink win-badge--wide">NotActive</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    Yesterday - 03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-pink win-badge--wide">NotActive</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    10/01/2019 - 03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-green win-badge--wide">Active</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="table-pagination">
-                        <ul class="list-inline d-inline-block">
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="icon-arrow-left"></i>
                                 </a>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                   1
-                                </a>
+                            <li>
+                                <i class="icon-arrow-right color-gray fs-15 px-1"></i>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    2
-                                </a>
-                            </li>
-                            <li class="list-inline-item active">
-                                <a href="#">
-                                    3
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    4
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="icon-arrow-right"></i>
-                                </a>
+                            <li>
+                                <p class="m-0 color-gray">
+                                    Pricing
+                                </p>
                             </li>
                         </ul>
                     </div>
+
                 </div>
+
+
+
+
+                <div class="col-lg-12 p-5 bg-light mt-4 ">
+
+                    <div class="statistics-card black-card bg-white br-8 d-block p-4 pb-5">
+
+
+                        <div class="row mt-3 p-3">
+                            <div class="col-sm-12">
+                                <h4>Price per Time</h4>
+                            </div>
+
+                            <div class="col-lg-12 ">
+
+                                <div class="form-group m-form__group">
+                                    <label>Category:</label>
+                                    <select class="form-control m-bootstrap-select m_selectpicker" title="Car Services - Normal"
+                                            data-size="4">
+                                        <option value="1">Inside Cities</option>
+                                        <option value="2">Palestinian</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group m-form__group">
+                                    <h4>Start counter price</h4>
+                                    <label>Starting Price:</label>
+                                    <input type="text" class="form-control m-input" value="20">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="form-group m-form__group">
+                                    <h4>Winch Credit Limit</h4>
+                                    <label>Credit Limit:</label>
+                                    <input type="text" class="form-control m-input" value="20">
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="m-portlet m-portlet--tabs">
+                            <div class="m-portlet__head p-3">
+
+                                <div class="m-portlet__head-tools">
+                                    <ul class="nav nav-tabs m-tabs-line m-tabs-line--right" role="tablist">
+                                        <li class="nav-item m-tabs__item">
+                                            <a class="nav-link m-tabs__link active" data-toggle="tab" href="#tab1" role="tab">
+                                                Customer
+                                            </a>
+                                        </li>
+                                        <li class="nav-item m-tabs__item">
+                                            <a class="nav-link m-tabs__link" data-toggle="tab" href="#tab2" role="tab">
+                                                Company
+                                            </a>
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="m-portlet__body p-3">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="tab1" role="tabpanel">
+                                        <div class="row ">
+                                            <div class="col-sm-12">
+                                                <h4>Calculate Site ratio</h4>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Saudi Account:</label>
+                                                    <input type="text" class="form-control m-input" value="12345678">
+                                                </div>
+                                                <p class="fs-10 mt-2">Percentage of Site of Saudi account requests</p>
+                                            </div>
+
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Authenticated Accounts:</label>
+                                                    <input type="text" class="form-control m-input" value="10%">
+                                                </div>
+                                                <p class="fs-10 mt-2">Percentage of Site of Authenticated Accounts requests</p>
+
+                                            </div>
+
+                                            <div class="col-lg-4  col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>NotAuthenticated Accounts:</label>
+                                                    <input type="text" class="form-control m-input" value="20">
+                                                </div>
+                                                <p class="fs-10 mt-2">Percentage of Site of Authenticated Accounts requests</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="row m-0">
+                                            <hr class="line">
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col-sm-12">
+                                                <h4>Price per kilo</h4>
+                                            </div>
+
+                                            <div class="col-lg-4 col-sm-6 ">
+
+                                                <div class="form-group m-form__group">
+                                                    <label>Service Type</label>
+                                                    <select class="form-control m-bootstrap-select m_selectpicker" title="Inside Cities"
+                                                            data-size="4">
+                                                        <option value="1">Inside Cities</option>
+                                                        <option value="2">Palestinian</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Normal Hours</label>
+                                                    <input type="text" class="form-control m-input" value="20">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Rush Hours</label>
+                                                    <input type="text" class="form-control m-input" value="20">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="row mx-0 mt-4">
+                                            <hr class="line">
+                                        </div>
+                                        <div class="row mt-3">
+                                            <div class="col-sm-12">
+                                                <h4>Price per Time</h4>
+                                            </div>
+
+                                            <div class="col-lg-4 col-sm-6 ">
+
+                                                <div class="form-group m-form__group">
+                                                    <label>Service Type</label>
+                                                    <select class="form-control m-bootstrap-select m_selectpicker" title="Inside Cities"
+                                                            data-size="4">
+                                                        <option value="1">Inside Cities</option>
+                                                        <option value="2">Palestinian</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Normal Hours</label>
+                                                    <input type="text" class="form-control m-input" value="20">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Rush Hours</label>
+                                                    <input type="text" class="form-control m-input" value="20">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+                                    <div class="tab-pane" id="tab2" role="tabpanel">
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-lg-12 text-center my-5">
+                                <button type="submit" class="btn btn-yellow px-5 w-lg-25 " href="#">Save Edits</button>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
             </div>
         </div>
     </div>
@@ -876,10 +811,10 @@
 <script src="js/bootstrap-select.js" type="text/javascript"></script>
 <script src="js/canvasjs.min.js"></script>
 <script>
-    $(".dell-btn").click(function (e) {
+    $(".close-complaint").click(function (e) {
         swal({
-            title: "Are you sure?",
-            text: "You won't delete this row!",
+            title: "Close Complaint",
+            text: "Are You Sure You Want To Close Complaint?",
             showCancelButton: !0,
             confirmButtonText: "Yes",
             cancelButtonText: "No",
@@ -887,14 +822,28 @@
         }).then((result) => {
             if (result.value) {
                 Swal.fire(
-                    'Deleted!',
-                    'Your file has been deleted.',
+                    'Closed!',
                     'success'
                 );
-                $(this).closest('tr').fadeOut(500)
+
             }
         })
-    })
+    });
+
+    $(document).on('click' , '.sa-dropdown-menu a' , function () {
+        var key =  $(this).attr('data-country-number');
+        $('#country_number').val(key);
+        var selected = $(this).html();
+        $('.sa-dropdown .button').html(selected);
+    });
+    $(document).ready(function () {
+        $("#Account").click(function () {
+            if($(this).is(':checked'))
+                $(".for-account-freez").addClass('open');
+            else
+                $(".for-account-freez").removeClass('open');
+        });
+    });
 </script>
 <!--end::Global Theme Bundle -->
 

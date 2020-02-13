@@ -5,7 +5,7 @@
 <!-- begin::Head -->
 <head>
     <meta charset="utf-8"/>
-    <title>WiNCH || Business Sector</title>
+    <title>WiNCH || Service Provider</title>
     <meta name="description" content="Latest updates and statistic charts">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
 
@@ -304,7 +304,7 @@
                             <span class="win-menu__link-text">Customers</span>
                         </a>
                     </li>
-                    <li class="win-menu__item win-menu__item--active" aria-haspopup="true">
+                    <li class="win-menu__item" aria-haspopup="true">
                         <a href="#" class="win-menu__link ">
                             <i class="win-menu__link-icon icon-bag"></i>
                             <span class="win-menu__link-text">Business Sector</span>
@@ -316,7 +316,7 @@
                             <span class="win-menu__link-text">Winch Owner</span>
                         </a>
                     </li>
-                    <li class="win-menu__item  win-menu__item--submenu" aria-haspopup="true" win-menu-submenu-toggle="hover">
+                    <li class="win-menu__item  win-menu__item--submenu win-menu__item--active" aria-haspopup="true" win-menu-submenu-toggle="hover">
                         <a href="javascript:;" class="win-menu__link win-menu__toggle">
                             <i class="win-menu__link-icon icon-truck"></i>
                             <span class="win-menu__link-title">
@@ -557,300 +557,381 @@
         <div class="win-grid__item win-grid__item--fluid win-wrapper">
 
             <!-- END: Subheader -->
-            <div class="win-content">
-                <div class="my-breadcrumb">
-                    <ul>
-                        <li>
-                            <a href="#" class="link-one d-flex align-items-center">
-                                <i class="icon-dashboard"></i>
-                                Dashboard
-                            </a>
-                        </li>
-                        <li>
-                            <i class="icon-arrow-right color-gray fs-15 px-1"></i>
-                        </li>
-                        <li>
-                            <p class="m-0 color-gray">
-                                Business Sector
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <form action="#">
-                    <div class="row p-col-10 mt-3">
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Name</label>
-                                <input type="text" class="form-control m-input"
-                                       placeholder="Name">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Mobile Number</label>
-                                <input type="number" class="form-control m-input"
-                                       placeholder="Mobile Number">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Email</label>
-                                <input type="email" class="form-control m-input"
-                                       placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Status</label>
-                                <select class="form-control m-bootstrap-select m_selectpicker" title="Customer Type"
-                                        data-size="4">
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6">
-                            <div class="form-group m-form__group">
-                                <label>Report</label>
-                                <select class="form-control m-bootstrap-select m_selectpicker" title="Report"
-                                        data-size="4">
-                                    <option value="1">Type 1</option>
-                                    <option value="2">Type 2</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-sm-6 ml-auto d-flex">
-                            <div class="row p-col-10 w-100 align-self-end m-0 mt-3">
-                                <div class="col pl-0">
-                                    <button type="button" class="btn btn-orange w-100">Show All</button>
-                                </div>
-                                <div class="col pr-0">
-                                    <button type="button" class="btn btn-blue w-100">Show Results</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <div class="my-table mt-4">
-                    <div class="table-responsive-lg">
-                        <table class="table">
-                            <thead>
-                            <tr>
-                                <th>
-                                    No
-                                </th>
-                                <th>
-                                    Name
-                                </th>
-                                <th>
-                                    Mobile Number
-                                </th>
-                                <th>
-                                    Balance
-                                </th>
-                                <th>
-                                    Review
-                                </th>
-                                <th>
-                                    Status
-                                </th>
-                                <th>
-                                    Free Balance
-                                </th>
-                                <th>
+            <div class="win-content ">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="my-breadcrumb">
+                        <ul>
+                            <li>
+                                <a href="#" class="link-one d-flex align-items-center">
+                                    <i class="icon-dashboard"></i>
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-one d-flex align-items-center">
+                                    <i class="icon-arrow-right color-gray fs-15 px-1"></i>
                                     Orders
-                                </th>
-                                <th>
-                                    Register Date
-                                </th>
-                                <th>
-                                    Action
-                                </th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-green win-badge--wide">Active</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-pink win-badge--wide">NotActive</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    Yesterday - 03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-pink win-badge--wide">NotActive</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    10/01/2019 - 03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>#12345</td>
-                                <td>
-                                    Abd Al Aziz Al Saidy
-                                </td>
-                                <td>
-                                    +966565667877
-                                </td>
-                                <td>
-                                    1250
-                                </td>
-                                <td>
-                                    <span class="table-rate">
-                                        <i class="icon-star"></i>
-                                        4.9
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="win-badge  win-badge-green win-badge--wide">Active</span>
-                                </td>
-                                <td>
-                                    <a href="#" class="link-one">Add - History</a>
-                                </td>
-                                <td> Non</td>
-                                <td>
-                                    03:13 PM
-                                </td>
-                                <td>
-                                    <a href="#" class="action-icon hover-green ">
-                                        <i class="icon-edit"></i>
-                                    </a>
-                                    <a href="#" class="action-icon hover-pink dell-btn">
-                                        <i class="icon-delete"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="table-pagination">
-                        <ul class="list-inline d-inline-block">
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="icon-arrow-left"></i>
                                 </a>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                   1
-                                </a>
+                            <li>
+                                <i class="icon-arrow-right color-gray fs-15 px-1"></i>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    2
-                                </a>
-                            </li>
-                            <li class="list-inline-item active">
-                                <a href="#">
-                                    3
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    4
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#">
-                                    <i class="icon-arrow-right"></i>
-                                </a>
+                            <li>
+                                <p class="m-0 color-gray">
+                                    Add Customer
+                                </p>
                             </li>
                         </ul>
                     </div>
+
                 </div>
+
+
+
+
+                <div class="col-lg-12 p-5 bg-light mt-4 ">
+
+                    <div class="statistics-card black-card bg-white br-8 d-block p-4 pb-5">
+
+
+
+                        <div class="m-portlet m-portlet--tabs">
+                            <div class="m-portlet__head">
+
+                                <div class="m-portlet__head-tools">
+                                    <ul class="nav nav-tabs m-tabs-line m-tabs-line--right" role="tablist">
+                                        <li class="nav-item m-tabs__item">
+                                            <a class="nav-link m-tabs__link active" data-toggle="tab" href="#tab1" role="tab">
+                                                Basic Information
+                                            </a>
+                                        </li>
+                                        <li class="nav-item m-tabs__item">
+                                            <a class="nav-link m-tabs__link" data-toggle="tab" href="#tab2" role="tab">
+                                                Services
+                                            </a>
+                                        </li>
+                                        <li class="nav-item m-tabs__item">
+                                            <a class="nav-link m-tabs__link" data-toggle="tab" href="#tab3" role="tab">
+                                                Driver Information
+                                            </a>
+                                        </li>
+                                        <li class="nav-item m-tabs__item">
+                                            <a class="nav-link m-tabs__link" data-toggle="tab" href="#tab3" role="tab">
+                                                Car Information
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="m-portlet__body">
+                                <div class="tab-content">
+                                    <div class="tab-pane active show" id="tab1" role="tabpanel">
+                                        <div class="row ">
+
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Provider ID</label>
+                                                    <input type="text" class="form-control m-input" value="12345678">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Reject Orders Average</label>
+                                                    <input type="text" class="form-control m-input" value="10%">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Balance</label>
+                                                    <div class="input-group">
+
+                                                        <input type="text" class="form-control" value="110 SAR">
+                                                        <div class="input-group-append">
+                                                            <button class="btn btn-yellow" type="button">History</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mt-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>First Name</label>
+                                                    <input type="text" class="form-control m-input" value="10%">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Last Name</label>
+                                                    <input type="text" class="form-control m-input" value="Sawafiri">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4  mt-lg-4 px-4 col-sm-6">
+                                                <div class="row">
+                                                    <div class="col-sm-5 pr-lg-1">
+                                                        <div class="form-group m-form__group">
+                                                            <label>Mobile Number</label>
+                                                            <div class="dropdown sa-dropdown">
+                                                                <button class="button btn w-100 dropdown-toggle br-8" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="images/saudiFlag.svg" alt="" width="20"> +963</button>
+                                                                <div class="dropdown-menu sa-dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                                    <a class="dropdown-item" data-country-number="962" href="#"><img src="images/saudiFlag.svg" alt="" width="20"> +962</a>
+                                                                    <a class="dropdown-item" data-country-number="963" href="#"><img src="images/saudiFlag.svg" alt="" width="20"> +963</a>
+                                                                    <a class="dropdown-item" data-country-number="964" href="#"><img src="images/saudiFlag.svg" alt="" width="20"> +964</a>
+                                                                </div>
+                                                                <input type="hidden" id="country_number" value="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-7 pl-lg-1 align-self-end">
+                                                        <div class="form-group m-form__group">
+
+                                                            <input type="text" class="form-control m-input" value="1123456">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-4 mt-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Password</label>
+                                                    <input type="password" class="form-control m-input" value="Sawafiri">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 mt-lg-4 col-sm-6">
+                                                <div class="form-group m-form__group">
+                                                    <label>Email</label>
+                                                    <input type="email" class="form-control m-input" value="moamersawafiri@gmail.com">
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-12">
+                                                <div class="row mx-0 mt-5">
+                                                    <div class="col-lg-4 col-sm-6 pl-0">
+
+                                                        <div class="form-group m-form__group">
+                                                            <div class="row m-0 align-items-center">
+                                                                <div class="col-sm-7 pl-0">
+                                                                    <label for="Availability">Availability</label>
+                                                                </div>
+                                                                <div class="col-sm-2 mt-2">
+                                                                    <span class="m-switch m-switch--icon m-switch--success">
+                                                                        <label>
+                                                                            <input id="Availability" type="checkbox" name="">
+                                                                            <span></span>
+                                                                            <i></i>
+                                                                        </label>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6 pl-0">
+                                                        <div class="form-group m-form__group">
+                                                            <div class="row m-0 align-items-center">
+                                                                <div class="col-sm-8 pl-0">
+                                                                    <label for="Authenticate">Authenticate Mobile number</label>
+                                                                </div>
+                                                                <div class="col-sm-2 mt-2">
+                                                                    <span class="m-switch m-switch--icon m-switch--success">
+                                                                        <label>
+                                                                            <input id="Authenticate" type="checkbox" name="">
+                                                                            <span></span>
+                                                                            <i></i>
+                                                                        </label>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6 pl-0">
+                                                        <div class="form-group m-form__group">
+                                                            <div class="row m-0 align-items-center">
+                                                                <div class="col-sm-8 pl-5">
+                                                                    <label for="Authentication">Authentication</label>
+                                                                </div>
+                                                                <div class="col-sm-2 mt-2">
+                                                                    <span class="m-switch m-switch--icon m-switch--success">
+                                                                        <label>
+                                                                            <input id="Authentication" type="checkbox" name="">
+                                                                            <span></span>
+                                                                            <i></i>
+                                                                        </label>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6 pl-0">
+                                                        <div class="form-group m-form__group">
+                                                            <div class="row m-0 align-items-center">
+                                                                <div class="col-sm-7 pl-0">
+                                                                    <label for="Saudi_Account">Saudi Account</label>
+                                                                </div>
+                                                                <div class="col-sm-2 mt-2">
+                                                                    <span class="m-switch m-switch--icon m-switch--success">
+                                                                        <label>
+                                                                            <input id="Saudi_Account" type="checkbox" name="">
+                                                                            <span></span>
+                                                                            <i></i>
+                                                                        </label>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6 pl-0">
+                                                        <div class="form-group m-form__group">
+                                                            <div class="row m-0 align-items-center">
+                                                                <div class="col-sm-8 pl-0">
+                                                                    <label for="Account">Account Freez</label>
+                                                                </div>
+                                                                <div class="col-sm-2 mt-2">
+                                                                    <span class="m-switch m-switch--icon m-switch--success">
+                                                                        <label>
+                                                                            <input id="Account" type="checkbox" name="">
+                                                                            <span></span>
+                                                                            <i></i>
+                                                                        </label>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-4 col-sm-6 pl-0">
+                                                        <div class="form-group m-form__group">
+                                                            <div class="row m-0 align-items-center">
+                                                                <div class="col-sm-8 pl-5">
+                                                                    <label for="Status">Status</label>
+                                                                </div>
+                                                                <div class="col-sm-2 mt-2">
+                                                                    <span class="m-switch m-switch--icon m-switch--success">
+                                                                        <label>
+                                                                            <input id="Status" type="checkbox" name="">
+                                                                            <span></span>
+                                                                            <i></i>
+                                                                        </label>
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-lg-12 for-account-freez">
+                                                        <div class="row justify-content-end">
+                                                            <div class="col-lg-4 col-sm-6 pl-lg-0">
+                                                                <div class="form-group m-form__group">
+                                                                    <label>Freeze Date</label>
+                                                                    <input type="text" class="form-control m-input" placeholder="Freeze Date">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-4 col-sm-6">
+                                                                <div class="form-group m-form__group">
+                                                                    <label>Freeze Reason</label>
+                                                                    <input type="text" class="form-control m-input" placeholder="Freeze Reason">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                    <div class="tab-pane" id="tab2" role="tabpanel">
+
+                                    </div>
+                                    <div class="tab-pane " id="tab3" role="tabpanel">
+                                            <div class="row">
+                                                <div class="col-lg-4 col-sm-6">
+                                                    <div class="form-group m-form__group">
+                                                        <label>Nationality ID Number</label>
+                                                        <input type="text" class="form-control m-input" value="12345678">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6">
+                                                    <div class="form-group m-form__group">
+                                                        <label>Bank Name</label>
+                                                        <input type="text" class="form-control m-input" value="Select Your Bank">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-4 col-sm-6">
+                                                    <div class="form-group m-form__group">
+                                                        <label>IBAN</label>
+                                                        <input type="text" class="form-control m-input" value="SA456789902345">
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-4 col-sm-6 mt-3">
+
+                                                    <div class="form-group m-form__group">
+                                                        <label>Nationality</label>
+                                                        <select class="form-control m-bootstrap-select m_selectpicker" title="Palestinian"
+                                                                data-size="4">
+                                                            <option value="1">Palestinian</option>
+                                                            <option value="2">Palestinian</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-4 col-sm-6 mt-3">
+
+                                                    <div class="form-group m-form__group">
+                                                        <label>City</label>
+                                                        <select class="form-control m-bootstrap-select m_selectpicker" title="Jeddah"
+                                                                data-size="4">
+                                                            <option value="1">Jeddah</option>
+                                                            <option value="2">Jeddah</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-12 mt-4">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-sm-6 mt-2">
+                                                            <div class="font-weight-bold"><img src="images/img.svg" width="20" class="mr-2" alt=""> Personal Image</div>
+                                                            <div class="input-upload">
+                                                                <input type="file" class="uploadfile" id="browse">
+
+                                                            </div>
+                                                            <div id="preview">No File Choosen</div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                    </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-lg-12 text-center my-5">
+                                <a class="btn btn-yellow px-5 w-lg-25 close-complaint" href="#">Close Complaint</a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+
+
             </div>
         </div>
     </div>
@@ -876,10 +957,10 @@
 <script src="js/bootstrap-select.js" type="text/javascript"></script>
 <script src="js/canvasjs.min.js"></script>
 <script>
-    $(".dell-btn").click(function (e) {
+    $(".close-complaint").click(function (e) {
         swal({
-            title: "Are you sure?",
-            text: "You won't delete this row!",
+            title: "Close Complaint",
+            text: "Are You Sure You Want To Close Complaint?",
             showCancelButton: !0,
             confirmButtonText: "Yes",
             cancelButtonText: "No",
@@ -887,14 +968,52 @@
         }).then((result) => {
             if (result.value) {
                 Swal.fire(
-                    'Deleted!',
-                    'Your file has been deleted.',
+                    'Closed!',
                     'success'
                 );
-                $(this).closest('tr').fadeOut(500)
+
             }
         })
-    })
+    });
+
+    $(document).on('click' , '.sa-dropdown-menu a' , function () {
+        var key =  $(this).attr('data-country-number');
+        $('#country_number').val(key);
+        var selected = $(this).html();
+        $('.sa-dropdown .button').html(selected);
+    });
+    $(document).ready(function () {
+        $("#Account").click(function () {
+            if($(this).is(':checked'))
+                $(".for-account-freez").addClass('open');
+            else
+                $(".for-account-freez").removeClass('open');
+        });
+    });
+
+    const EL_browse  = document.getElementById('browse');
+    const EL_preview = document.getElementById('preview');
+
+    const readImage  = file => {
+        if ( !(/^image\/(png|jpe?g|gif)$/).test(file.type) )
+            return EL_preview.insertAdjacentHTML('beforeend', `Unsupported format ${file.type}: ${file.name}<br>`);
+
+        const img = new Image();
+        img.addEventListener('load', () => {
+            EL_preview.appendChild(img);
+            EL_preview.insertAdjacentHTML('beforeend', `<div>${file.name}<div>`);
+            window.URL.revokeObjectURL(img.src); // Free some memory
+        });
+        img.src = window.URL.createObjectURL(file);
+    }
+
+    EL_browse.addEventListener('change', ev => {
+        EL_preview.innerHTML = ''; // Remove old images and data
+        const files = ev.target.files;
+        if (!files || !files[0]) return alert('File upload not supported');
+        [...files].forEach( readImage );
+    });
+
 </script>
 <!--end::Global Theme Bundle -->
 

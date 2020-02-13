@@ -106,25 +106,25 @@
 //
 // Tweak just a few things for checkboxes.
 
-.custom-checkbox {
+.custowin-checkbox {
   .custom-control-label::before {
-    @include border-radius($custom-checkbox-indicator-border-radius);
+    @include border-radius($custowin-checkbox-indicator-border-radius);
   }
 
   .custom-control-input:checked ~ .custom-control-label {
     &::after {
-      background-image: $custom-checkbox-indicator-icon-checked;
+      background-image: $custowin-checkbox-indicator-icon-checked;
     }
   }
 
   .custom-control-input:indeterminate ~ .custom-control-label {
     &::before {
-      border-color: $custom-checkbox-indicator-indeterminate-border-color;
-      @include gradient-bg($custom-checkbox-indicator-indeterminate-bg);
-      @include box-shadow($custom-checkbox-indicator-indeterminate-box-shadow);
+      border-color: $custowin-checkbox-indicator-indeterminate-border-color;
+      @include gradient-bg($custowin-checkbox-indicator-indeterminate-bg);
+      @include box-shadow($custowin-checkbox-indicator-indeterminate-box-shadow);
     }
     &::after {
-      background-image: $custom-checkbox-indicator-icon-indeterminate;
+      background-image: $custowin-checkbox-indicator-icon-indeterminate;
     }
   }
 
