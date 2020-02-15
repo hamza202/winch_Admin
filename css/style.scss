@@ -805,6 +805,11 @@ a.link {
 
     li {
       display: flex;
+      a{
+        @include media-breakpoint-down(md){
+          font-size: 11px;
+        }
+      }
     }
   }
 
@@ -1261,7 +1266,9 @@ input[type=number]::-webkit-outer-spin-button {
     color:$black;
     font-size: 18px;
   }
-
+  .icon-check{
+    font-size: 17px !important;
+  }
 }
 .redius{
   width: 50px;
@@ -1598,7 +1605,7 @@ input[type=number]::-webkit-outer-spin-button {
   .message{
     border-radius: 8px;
     padding: 12px;
-    font-size: 11px;
+    font-size: 12px;
   }
   .yellow-card{background-color: rgba($yellow, 0.15);
     color: $black;}
@@ -1627,7 +1634,7 @@ input[type=number]::-webkit-outer-spin-button {
   .message{
     border-radius: 8px;
     padding: 12px;
-    font-size: 11px;
+    font-size: 12px;
   }
   .yellow-card{background-color: rgba($yellow, 0.15);
     color: $black;}
@@ -1676,4 +1683,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .cursor-none{
   cursor: default !important;
+}
+.mt-n5{
+  @include media-breakpoint-down(md){
+    margin-top: -3rem;
+  }
 }

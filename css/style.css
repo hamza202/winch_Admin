@@ -810,6 +810,9 @@ a.link {
   padding: 0; }
   .my-breadcrumb ul li {
     display: flex; }
+    @media (max-width: 991.98px) {
+      .my-breadcrumb ul li a {
+        font-size: 11px; } }
 .my-breadcrumb i {
   padding-right: 3px;
   font-size: 17px; }
@@ -1137,6 +1140,8 @@ input[type=number]::-webkit-outer-spin-button {
   .black-card .statistics-card-title {
     color: #2A2A2A;
     font-size: 18px; }
+  .black-card .icon-check {
+    font-size: 17px !important; }
 
 .redius {
   width: 50px;
@@ -1409,7 +1414,7 @@ input[type=number]::-webkit-outer-spin-button {
   .you .message {
     border-radius: 8px;
     padding: 12px;
-    font-size: 11px; }
+    font-size: 12px; }
   .you .yellow-card {
     background-color: rgba(255, 194, 15, 0.15);
     color: #2A2A2A; }
@@ -1435,7 +1440,7 @@ input[type=number]::-webkit-outer-spin-button {
   .me .message {
     border-radius: 8px;
     padding: 12px;
-    font-size: 11px; }
+    font-size: 12px; }
   .me .yellow-card {
     background-color: rgba(255, 194, 15, 0.15);
     color: #2A2A2A; }
@@ -1475,5 +1480,9 @@ input[type=number]::-webkit-outer-spin-button {
 
 .cursor-none {
   cursor: default !important; }
+
+@media (max-width: 991.98px) {
+  .mt-n5 {
+    margin-top: -3rem; } }
 
 /*# sourceMappingURL=style.css.map */
