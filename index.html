@@ -742,8 +742,8 @@
                     </div>
                 </div>
                 <div class="row p-col-10 mt-3">
-                    <div class="col-xl-6">
-                        <div class="my-card">
+                    <div class="col-xl-6 mb-xl-0 mb-3">
+                        <div class="my-card ">
                             <div class="row p-col-10 justify-content-between">
                                 <div class="col-auto">
                                     <h6 class="m-0 d-inline-block fs-13">
@@ -872,6 +872,75 @@
                                 </div>
                             </div>
                             <div id="chartContainer" class="chart-container"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row p-col-10 mt-3">
+                    <div class="col-12">
+                        <div class="my-card">
+                            <div class="row mb-3 ">
+                                <div class="col-lg-6">
+                                    <div class="form-group m-form__group">
+                                        <div class="input-group m-input-group">
+                                            <div class="input-group-prepend"><span class="input-group-text"><span class="icon-search"></span></span></div>
+                                            <input type="text" id="pac-input" class="form-control m-input" placeholder="Search City Here..." aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="row ">
+                                        <div class="col-6">
+                                            <div class="form-group m-form__group">
+                                                <select class="form-control m-bootstrap-select m_selectpicker"
+                                                        title="Category"
+                                                        data-size="5">
+                                                    <option value="1">All</option>
+                                                    <option value="2">Repair tire at the station</option>
+                                                    <option value="3">Trilla without aspects</option>
+                                                    <option value="4">Dyna Middle</option>
+                                                    <option value="5">Dyna Big</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-group m-form__group">
+                                                <select class="form-control m-bootstrap-select m_selectpicker"
+                                                        title="Status"
+                                                        data-size="5">
+                                                    <option value="1">All</option>
+                                                    <option value="2">Active</option>
+                                                    <option value="3">On Order</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row align-items-center">
+                                <div class="col-lg-9">
+                                    <div id="map"></div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h3 class="map-title">
+                                        Providers On Map <span>17</span>
+                                    </h3>
+                                    <div class="active-on-order-container">
+                                        <div class="row justify-content-between">
+                                            <div class="col-auto">
+                                                <p class="active-before circle-before ">
+                                                    Active
+                                                </p>
+                                                <p class="onOrder-before circle-before">
+                                                    On Order
+                                                </p>
+                                            </div>
+                                            <div class="col-auto">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1708,6 +1777,14 @@
         })
     })
 </script>
+<script>
+  $(".m-bootstrap-select").on('change', function () {
+        console.log($(this).val())
+  })
+</script>
+<script src="js/map_restaurants.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNbMwiIBjwnK9PHv7yjg91y8nItriVoEc&amp;libraries=places&amp;callback=initAutocomplete"></script>
+<script src="js/infobox.js"></script>
 </body>
 
 <!-- end::Body -->
