@@ -212,8 +212,8 @@ function initAutocomplete() {
 
 
                 // console.log(item.category);
-                console.log(category);
-                if (item.category === category || category === 0) {
+                // console.log(category);
+                if (item.category === category || category === 0 || category === 'all') {
                     marker.setMap(mapObject);
                 }
                 // Categories don't match

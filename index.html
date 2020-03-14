@@ -432,7 +432,7 @@
             <!-- BEGIN: Aside Menu -->
             <div id="win_ver_menu"
                  class="win-aside-menu  win-aside-menu--skin-light win-aside-menu--submenu-skin-light "
-                 win-menu-vertical="1" win-menu-scrollable="1" win-menu-dropdown-timeout="500"
+                 win-menu-vertical="1" win-menu-scrollable="0" win-menu-dropdown-timeout="500"
                  style="position: relative;">
                 <ul class="win-menu__nav  win-menu__nav--dropdown-submenu-arrow ">
                     <li class="win-menu__item  win-menu__item--active" aria-haspopup="true">
@@ -1052,12 +1052,12 @@
                                         </div>
                                         <div class="col-6">
                                             <div class="form-group m-form__group">
-                                                <select class="form-control m-bootstrap-select m_selectpicker"
+                                                <select class="form-control m-bootstrap-select select-status m_selectpicker"
                                                         title="Status"
                                                         data-size="5">
-                                                    <option value="1">All</option>
-                                                    <option value="2">Active</option>
-                                                    <option value="3">On Order</option>
+                                                    <option value="all">All</option>
+                                                    <option value="active">Active</option>
+                                                    <option value="NotActive">On Order</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -1935,7 +1935,11 @@
     })
 </script>
 <script>
-    $(".m-bootstrap-select").on('change', function () {
+    $(".select-status").on('change', function () {
+        if($(this).val() !== ""){
+            hideAllMarkers();
+        }
+        filterMarkers($(this).val());
         console.log($(this).val())
     })
 </script>

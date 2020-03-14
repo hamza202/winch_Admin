@@ -3,22 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0132a3-8eff-4875-b197-09c0b4f41a92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edit-ProviderBasic-Information.html" beforeDir="false" afterPath="$PROJECT_DIR$/Edit-ProviderBasic-Information.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orderchat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Orderchat.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pricing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Refrigerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/Refrigerator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add-customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/add-customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/business.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complaint.html" beforeDir="false" afterPath="$PROJECT_DIR$/complaint.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/complaints.html" beforeDir="false" afterPath="$PROJECT_DIR$/complaints.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit-provider.html" beforeDir="false" afterPath="$PROJECT_DIR$/edit-provider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/icon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/furniture-order-details-multiple-answeres.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-order-details-multiple-answeres.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/furniture-order-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/furniture-order-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goods-order-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/goods-order-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/map_restaurants.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map_restaurants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-details-coupone.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-details-coupone.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/order.html" afterDir="false" />
@@ -122,7 +114,8 @@
       <workItem from="1583860746959" duration="7318000" />
       <workItem from="1583928935366" duration="1830000" />
       <workItem from="1584013062112" duration="599000" />
-      <workItem from="1584043877860" duration="5132000" />
+      <workItem from="1584043877860" duration="5821000" />
+      <workItem from="1584139342656" duration="4652000" />
     </task>
     <servers />
   </component>
@@ -138,6 +131,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581528516399" />
+    <state x="711" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584142963589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584142963589" />
     <state x="499" y="74" key="RollbackChangesDialog" timestamp="1583724494103">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

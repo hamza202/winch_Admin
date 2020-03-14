@@ -466,8 +466,6 @@ a {
   .win-aside-menu.win-aside-menu--skin-light .win-menu__nav > .win-menu__item > .win-menu__link .win-menu__link-icon {
     color: #888888;
     font-size: 19px; }
-    .win-aside-menu.win-aside-menu--skin-light .win-menu__nav > .win-menu__item > .win-menu__link .win-menu__link-icon.icon-transfer {
-      font-size: 15px; }
 
 .win-aside-left--minimize .win-aside-menu.win-aside-menu--skin-light .win-menu__nav > .win-menu__item.win-menu__item--active > .win-menu__link > .win-menu__link-icon {
   color: #2A2A2A; }
