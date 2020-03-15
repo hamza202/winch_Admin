@@ -1366,7 +1366,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .m-switch input ~ span:before {
-  background-color: #F3F3F3 !important;
+  background-color: #dbdbdb !important;
 }
 
 .m-switch input:checked ~ span:before {
@@ -2202,4 +2202,13 @@ span.infobox_rate {
       }
     }
   }
+}
+.main-road{
+  font-size: 15px;
+  color: $black !important;
+}
+.second-road{
+  font-size: 15px;
+  margin-bottom: 0;
+  color: $gray !important;
 }

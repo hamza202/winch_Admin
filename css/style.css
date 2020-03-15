@@ -1188,7 +1188,7 @@ input[type=number]::-webkit-outer-spin-button {
   color: #333; }
 
 .m-switch input ~ span:before {
-  background-color: #F3F3F3 !important; }
+  background-color: #dbdbdb !important; }
 
 .m-switch input:checked ~ span:before {
   background-color: #2BBE65 !important;
@@ -1766,5 +1766,14 @@ span.infobox_rate {
     background-color: rgba(255, 194, 15, 0.1); }
 .search-dropdown-container .search-dropdown-result .search-city:last-child a .border-bottom {
   border-bottom: 0 !important; }
+
+.main-road {
+  font-size: 15px;
+  color: #2A2A2A !important; }
+
+.second-road {
+  font-size: 15px;
+  margin-bottom: 0;
+  color: #777777 !important; }
 
 /*# sourceMappingURL=style.css.map */
