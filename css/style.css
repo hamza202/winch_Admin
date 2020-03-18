@@ -1776,4 +1776,57 @@ span.infobox_rate {
   margin-bottom: 0;
   color: #777777 !important; }
 
+.alert.m-alert--outline.alert-warning {
+  border-color: #FFC20F;
+  color: #2A2A2A;
+  background-color: #FFFAF3; }
+  .alert.m-alert--outline.alert-warning.close {
+    color: #2A2A2A; }
+
+.alert.m-alert--outline.alert-success {
+  border-color: #2BBE65;
+  color: #2BBE65;
+  background-color: #FCFFF5; }
+  .alert.m-alert--outline.alert-success.close {
+    color: #2BBE65; }
+
+.alert.m-alert--outline.alert-info {
+  border-color: #1A7BFF;
+  color: #1A7BFF;
+  background-color: #F8FFFF; }
+  .alert.m-alert--outline.alert-info.close {
+    color: #1A7BFF; }
+
+.alert.m-alert--outline.alert-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+  background-color: #FFF6F6; }
+  .alert.m-alert--outline.alert-danger.close {
+    color: #dc3545; }
+
+.datepicker table tr td, .datepicker table tr th {
+  text-align: center;
+  width: 30px;
+  height: 35px;
+  border-radius: 50%; }
+
+.datepicker tbody tr > td.day.today:before {
+  display: none; }
+
+.datepicker tbody tr > td.day.today {
+  background: rgba(255, 194, 15, 0.5);
+  color: #2A2A2A; }
+
+.datepicker tbody tr > td.day.selected, .datepicker tbody tr > td.day.selected:hover, .datepicker tbody tr > td.day.active, .datepicker tbody tr > td.day.active:hover {
+  background: #FFC20F;
+  color: #2A2A2A; }
+
+.datepicker .datepicker-switch {
+  border-radius: 4px !important; }
+
+.datepicker table tr td span.active.active.focus, .datepicker table tr td span.active.active:focus, .datepicker table tr td span.active.active:hover, .datepicker table tr td span.active.disabled.active.focus, .datepicker table tr td span.active.disabled.active:focus, .datepicker table tr td span.active.disabled.active:hover, .datepicker table tr td span.active.disabled:active.focus, .datepicker table tr td span.active.disabled:active:focus, .datepicker table tr td span.active.disabled:active:hover, .datepicker table tr td span.active.disabled:hover.active.focus, .datepicker table tr td span.active.disabled:hover.active:focus, .datepicker table tr td span.active.disabled:hover.active:hover, .datepicker table tr td span.active.disabled:hover:active.focus, .datepicker table tr td span.active.disabled:hover:active:focus, .datepicker table tr td span.active.disabled:hover:active:hover, .datepicker table tr td span.active:active.focus, .datepicker table tr td span.active:active:focus, .datepicker table tr td span.active:active:hover, .datepicker table tr td span.active:hover.active.focus, .datepicker table tr td span.active:hover.active:focus, .datepicker table tr td span.active:hover.active:hover, .datepicker table tr td span.active:hover:active.focus, .datepicker table tr td span.active:hover:active:focus, .datepicker table tr td span.active:hover:active:hover,
+.datepicker tbody tr > td span.month.active:hover, .datepicker tbody tr > td span.month.active, .datepicker table tr td span.active.active {
+  background-color: #FFC20F;
+  color: #2A2A2A; }
+
 /*# sourceMappingURL=style.css.map */

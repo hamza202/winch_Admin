@@ -97,7 +97,7 @@ $color-map: (
 }
 
 %my-shadow {
-  box-shadow: 0 8px 20px 0 rgba(0,0,0, 0.08) !important;
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08) !important;
 }
 
 %my-shadow2 {
@@ -246,9 +246,9 @@ a {
   .win-menu__link-icon {
     color: $gray8;
     font-size: 19px;
-  //  &.icon-transfer{
-  //  font-size: 15px;
-  //}
+    //  &.icon-transfer{
+    //  font-size: 15px;
+    //}
   }
 }
 
@@ -531,17 +531,20 @@ li.lang-change {
 }
 
 .admin-dropdown {
-  .win-dropdown__arrow{
+  .win-dropdown__arrow {
     color: #515151 !important;
   }
+
   .win-dropdown__inner {
     //border-bottom: 1px solid $yellow;
-    .win-dropdown__header{
+    .win-dropdown__header {
       background-color: #515151;
-      .win-dropdown__header-title{
+
+      .win-dropdown__header-title {
         color: white;
       }
-      .profile-small-text{
+
+      .profile-small-text {
         color: white;
       }
     }
@@ -1959,13 +1962,15 @@ span.infobox_rate {
 .marker_info {
   @extend %my-shadow2;
   border-radius: 8px;
+
   .driver-details-card {
     .media-body {
       h5 {
         a.driver-name {
           position: relative;
           font-size: 14px;
-          img{
+
+          img {
             margin-left: 3px;
             margin-bottom: 2px;
           }
@@ -2055,19 +2060,23 @@ span.infobox_rate {
     font-weight: 600;
   }
 }
-.driver-phone{
+
+.driver-phone {
   font-size: 14px;
 }
-.user-img{
+
+.user-img {
   width: 45px;
   height: 45px;
   border-radius: 8px;
 }
-.circle-before{
+
+.circle-before {
   position: relative;
   padding-left: 15px;
   font-size: 14px;
-  &:before{
+
+  &:before {
     position: absolute;
     content: '';
     display: block;
@@ -2075,36 +2084,43 @@ span.infobox_rate {
     top: 50%;
     transform: translateY(-50%);
     width: 10px;
-    height:10px;
+    height: 10px;
     border-radius: 50%;
     background-color: $green;
   }
-  &.onOrder-before{
-    &:before{
+
+  &.onOrder-before {
+    &:before {
       background-color: $pink;
     }
   }
 }
-.head-chat{
+
+.head-chat {
   font-size: 17px;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
 }
-.statistics-card.grayF-card , .statistics-card.black-card{
-  box-shadow: 0 8px 30px 0 rgba(243,246,249, 0.8) !important;
-  .fs-11{
-    font-size: 12px!important;
+
+.statistics-card.grayF-card, .statistics-card.black-card {
+  box-shadow: 0 8px 30px 0 rgba(243, 246, 249, 0.8) !important;
+
+  .fs-11 {
+    font-size: 12px !important;
   }
 }
-.content-chat{
-  box-shadow: 0 8px 30px 0 rgba(243,246,249, 0.8) !important;
+
+.content-chat {
+  box-shadow: 0 8px 30px 0 rgba(243, 246, 249, 0.8) !important;
 
 }
-.search-arrow{
+
+.search-arrow {
   color: $black;
   font-size: 15px;
   font-weight: 500;
-  i{
+
+  i {
     margin-right: 3px;
     color: #9C9C9D;
     font-size: 16px;
@@ -2112,20 +2128,24 @@ span.infobox_rate {
     top: 2px;
   }
 }
-.search-dropdown-container{
-  .drop-search-container{
+
+.search-dropdown-container {
+  .drop-search-container {
     position: relative;
-    input{
+
+    input {
       padding: 10px 10px 10px 45px;
       width: 100%;
       border: 1px solid transparent;
       outline: 0;
       font-size: 15px;
-      &:focus{
+
+      &:focus {
         border-color: $yellow;
       }
     }
-    i{
+
+    i {
       position: absolute;
       left: 10px;
       top: 50%;
@@ -2133,7 +2153,8 @@ span.infobox_rate {
       font-size: 22px;
       color: $black;
     }
-    &:before{
+
+    &:before {
       position: absolute;
       left: 35px;
       width: 1px;
@@ -2146,56 +2167,63 @@ span.infobox_rate {
     }
   }
 
-  .search-dropdown-result{
-      .search-country{
-        a{
-          display: flex;
-          align-items: center;
-          padding: 10px;
-          background-color: #EAEAEA;
-          span{
-            color: $black;
-            font-size: 14px;
-            font-weight: 500;
-          }
-          img{
-            width: 25.75px;
-            height: 15px;
-            margin-right: 10px;
-            border-radius: 1px;
-          }
+  .search-dropdown-result {
+    .search-country {
+      a {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: #EAEAEA;
+
+        span {
+          color: $black;
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        img {
+          width: 25.75px;
+          height: 15px;
+          margin-right: 10px;
+          border-radius: 1px;
         }
       }
-    .search-city{
-      a{
+    }
+
+    .search-city {
+      a {
         padding: 10px 10px 0 10px;
         display: block;
         transition: all ease-in-out .3s;
-        .border-bottom{
+
+        .border-bottom {
           padding-bottom: 11px;
           padding-top: 1px;
           display: flex;
           align-items: center;
           margin-bottom: -1px;
-          span{
+
+          span {
             color: $black;
             font-size: 14px;
             font-weight: 400;
           }
-          img{
+
+          img {
             width: 17px;
             height: 17px;
             margin-right: 5px;
           }
         }
 
-        &:hover{
+        &:hover {
           background-color: rgba($yellow, 0.1);
         }
       }
-      &:last-child{
-        a{
-          .border-bottom{
+
+      &:last-child {
+        a {
+          .border-bottom {
             border-bottom: 0 !important;
           }
         }
@@ -2203,12 +2231,77 @@ span.infobox_rate {
     }
   }
 }
-.main-road{
+
+.main-road {
   font-size: 15px;
   color: $black !important;
 }
-.second-road{
+
+.second-road {
   font-size: 15px;
   margin-bottom: 0;
   color: $gray !important;
+}
+
+.alert.m-alert--outline.alert-warning {
+  border-color: $yellow;
+  color: $black;
+  background-color: #FFFAF3;
+
+  &.close {
+    color: $black;
+  }
+}
+.alert.m-alert--outline.alert-success {
+  border-color: $green;
+  color: $green;
+  background-color: #FCFFF5;
+
+  &.close {
+    color: $green;
+  }
+}
+.alert.m-alert--outline.alert-info {
+  border-color: $blue;
+  color: $blue;
+  background-color: #F8FFFF;
+
+  &.close {
+    color: $blue;
+  }
+}
+.alert.m-alert--outline.alert-danger {
+  border-color: $red;
+  color: $red;
+  background-color: #FFF6F6;
+
+  &.close {
+    color: $red;
+  }
+}
+
+.datepicker table tr td, .datepicker table tr th {
+  text-align: center;
+  width: 30px;
+  height: 35px;
+  border-radius: 50%;
+}
+.datepicker tbody tr>td.day.today:before{
+  display: none;
+}
+.datepicker tbody tr>td.day.today{
+  background: rgba($yellow, 0.5);
+  color: $black;
+}
+.datepicker tbody tr>td.day.selected, .datepicker tbody tr>td.day.selected:hover, .datepicker tbody tr>td.day.active, .datepicker tbody tr>td.day.active:hover{
+  background: $yellow;
+  color: $black;
+}
+.datepicker .datepicker-switch{
+  border-radius: 4px !important;
+}
+.datepicker table tr td span.active.active.focus, .datepicker table tr td span.active.active:focus, .datepicker table tr td span.active.active:hover, .datepicker table tr td span.active.disabled.active.focus, .datepicker table tr td span.active.disabled.active:focus, .datepicker table tr td span.active.disabled.active:hover, .datepicker table tr td span.active.disabled:active.focus, .datepicker table tr td span.active.disabled:active:focus, .datepicker table tr td span.active.disabled:active:hover, .datepicker table tr td span.active.disabled:hover.active.focus, .datepicker table tr td span.active.disabled:hover.active:focus, .datepicker table tr td span.active.disabled:hover.active:hover, .datepicker table tr td span.active.disabled:hover:active.focus, .datepicker table tr td span.active.disabled:hover:active:focus, .datepicker table tr td span.active.disabled:hover:active:hover, .datepicker table tr td span.active:active.focus, .datepicker table tr td span.active:active:focus, .datepicker table tr td span.active:active:hover, .datepicker table tr td span.active:hover.active.focus, .datepicker table tr td span.active:hover.active:focus, .datepicker table tr td span.active:hover.active:hover, .datepicker table tr td span.active:hover:active.focus, .datepicker table tr td span.active:hover:active:focus, .datepicker table tr td span.active:hover:active:hover,
+.datepicker tbody tr>td span.month.active:hover, .datepicker tbody tr>td span.month.active ,.datepicker table tr td span.active.active{
+  background-color: $yellow;
+  color: $black;
 }
