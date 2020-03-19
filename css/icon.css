@@ -163,3 +163,6 @@
 .icon-minus:before {
   content: "\e91a";
 }
+.icon-withdraw-request:before {
+  content: "\e92b";
+}
