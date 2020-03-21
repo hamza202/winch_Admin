@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!-- begin::Head -->
+<head>
+    <meta charset="utf-8"/>
+    <title>WiNCH || Forget Password</title>
+    <meta name="description" content="Latest updates and statistic charts">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+
+    <!--begin::Web font -->
+    <script src="js/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {"families": ["Roboto:300,400,500,600,700"]},
+            active: function () {
+                sessionStorage.fonts = true;
+            }
+        });
+    </script>
+
+    <!--end::Web font -->
+
+    <!--begin::Global Theme Styles -->
+    <link href="css/vendors.bundle.css" rel="stylesheet" type="text/css"/>
+
+    <!--RTL version:<link href="css/vendors.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+    <link href="css/style.bundle.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <!--RTL version:<link href="css/style.bundle.rtl.css" rel="stylesheet" type="text/css" />-->
+
+    <!--end::Page Vendors Styles -->
+    <link rel="shortcut icon" href="images/icon.png"/>
+</head>
+<body>
+<div class="my-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="gray-wall">
+                    <div class="br-8 bg-white">
+                        <div class="login-container">
+                            <div class="login-container-img">
+                                <img src="images/Logo.svg" alt="">
+                            </div>
+                            <h3>
+                                Forget Password
+                            </h3>
+                            <div class="login-form-container">
+                                <form action="#" id="login__form">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-9">
+                                            <div class="form-group m-form__group gray-input mb-5">
+                                                <input type="email" class="form-control m-input br-8" name="email" required placeholder="E-mail">
+                                            </div>
+
+                                            <button type="submit" class="btn btn-yellow w-100 fw-600 fs-16 btn-4">Send Password</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="js/vendors.bundle.js" type="text/javascript"></script>
+<script src="js/scripts.bundle.js" type="text/javascript"></script>
+<script>
+    $('#login__form').validate({
+
+    })
+</script>
+</html>
