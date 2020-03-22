@@ -3,17 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0132a3-8eff-4875-b197-09c0b4f41a92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fonts/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts/fonts/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/icon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/old icon/icomoon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/old icon/icomoon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/old icon/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/old icon/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/old icon/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/Edit-ProviderBasic-Information.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/Edit-ProviderBasic-Information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/Furniture-order-details-multiple-answeres.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/Furniture-order-details-multiple-answeres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/Orderchat.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/Orderchat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/Pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/Pricing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/Refrigerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/Refrigerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/add-customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/add-customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/blank.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/blank.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/business.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/complaint.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/complaint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/complaints.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/complaints.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/edit-provider.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/edit-provider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/furniture-order-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/furniture-order-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/goods-order-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/goods-order-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/order-details-coupone.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/order-details-coupone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/order-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/order-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/provider.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/provider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/reset-pass.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/reset-pass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/add-customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/add-customer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +128,7 @@
       <workItem from="1584284358664" duration="8678000" />
       <workItem from="1584554844197" duration="4149000" />
       <workItem from="1584564371104" duration="1946000" />
+      <workItem from="1584811756953" duration="16822000" />
     </task>
     <servers />
   </component>

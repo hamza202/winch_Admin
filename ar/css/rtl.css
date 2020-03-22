@@ -1,0 +1,277 @@
+@font-face {
+  font-family: myFont;
+  src: url(fonts/HacenTunisiaLt.ttf);
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: myFont;
+  src: url(fonts/HacenTunisiaLt.ttf);
+  font-style: normal;
+  font-weight: 500; }
+@font-face {
+  font-family: myFont;
+  src: url(fonts/HacenTunisiaBd.ttf);
+  font-style: normal;
+  font-weight: 600; }
+.fs-10 {
+  font-size: 12px !important; }
+
+.fs-11 {
+  font-size: 13px !important; }
+
+.fs-12 {
+  font-size: 14px !important; }
+
+.fs-13 {
+  font-size: 15px !important; }
+
+.fs-14 {
+  font-size: 16px !important; }
+
+.fs-15 {
+  font-size: 17px !important; }
+
+.fs-16 {
+  font-size: 18px !important; }
+
+.fs-17 {
+  font-size: 19px !important; }
+
+.fs-18 {
+  font-size: 20px !important; }
+
+.fs-19 {
+  font-size: 21px !important; }
+
+.fs-20 {
+  font-size: 22px !important; }
+
+.fs-21 {
+  font-size: 23px !important; }
+
+.fs-22 {
+  font-size: 24px !important; }
+
+.fs-23 {
+  font-size: 25px !important; }
+
+.fs-24 {
+  font-size: 26px !important; }
+
+.fs-25 {
+  font-size: 27px !important; }
+
+.fs-26 {
+  font-size: 28px !important; }
+
+.fs-27 {
+  font-size: 29px !important; }
+
+.fs-28 {
+  font-size: 30px !important; }
+
+.fs-29 {
+  font-size: 31px !important; }
+
+.fs-30 {
+  font-size: 32px !important; }
+
+html, body {
+  font-size: 14px; }
+
+html, body, .bootstrap-select .dropdown-toggle .filter-option, .m-form__group .form-control, .btn {
+  font-family: myFont !important; }
+
+.btn {
+  font-size: 1.1rem; }
+
+.win-topbar .win-topbar__nav.win-nav > .win-nav__item > .win-nav__link .win-nav__link-icon > i:before {
+  background: linear-gradient(-180deg, #777 25%, #777 50%, #777 75%, #777 100%);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.win-aside-menu .win-menu__nav .win-menu__item > .win-menu__link .win-menu__ver-arrow:before {
+  transform: rotateZ(0deg); }
+
+.win-aside-menu .win-menu__nav .win-menu__item.win-menu__item--open > .win-menu__link > .win-menu__ver-arrow:before {
+  transform: rotateZ(-270deg); }
+
+.win-aside-menu .win-menu__nav > .win-menu__item > .win-menu__link {
+  padding-right: 30px;
+  padding-left: 15px; }
+
+#chartContainer {
+  direction: ltr; }
+
+.canvasjs-chart-tooltip > div {
+  direction: rtl !important;
+  text-align: right !important; }
+  .canvasjs-chart-tooltip > div span {
+    float: right; }
+
+.time-select .bootstrap-select > .dropdown-toggle:after {
+  right: auto;
+  left: 16px; }
+
+.time-select .bootstrap-select .dropdown-menu.inner > li.selected > a span.check-mark {
+  left: 5px;
+  right: auto; }
+
+.users-statistics-list li {
+  padding-right: 13px;
+  padding-left: 0; }
+
+.users-statistics-list li:before {
+  left: auto;
+  right: 0; }
+
+.users-statistics-right-container .users-statistics-content {
+  padding-right: 25px;
+  padding-left: 0; }
+
+.users-statistics-right-container .users-statistics-content:before {
+  right: 0;
+  left: auto; }
+
+.order-statistics-list li {
+  position: relative;
+  padding-right: 20px;
+  padding-left: 0; }
+
+.order-statistics-list li:before {
+  right: 0;
+  left: auto; }
+
+.win-topbar__nav li {
+  border-left: 0;
+  border-right: 1px solid #EFF3F8; }
+
+.circle-before {
+  padding-left: 0;
+  padding-right: 15px; }
+
+.circle-before:before {
+  left: auto;
+  right: 0; }
+
+.m-tabs-line a.m-tabs__link:after {
+  right: 0;
+  left: auto; }
+
+.icon-arrow-right::before,
+.icon-arrow-left::before {
+  transform: rotate(180deg);
+  display: block; }
+
+.table-pagination {
+  text-align: left; }
+
+.marker_info .driver-details-card .media-body h5 a.driver-name img {
+  margin-left: 0;
+  margin-right: 3px; }
+
+.infoBox > img {
+  right: auto !important;
+  left: 2px !important; }
+
+.search-dropdown-container .search-dropdown-result .search-country a img {
+  margin-left: 10px;
+  margin-right: 0; }
+
+.search-dropdown-container .search-dropdown-result .search-city a .border-bottom img {
+  margin-left: 5px;
+  margin-right: 0; }
+
+.search-dropdown-container .drop-search-container input {
+  padding: 10px 45px 10px 10px; }
+
+.search-dropdown-container .drop-search-container i {
+  right: 10px;
+  left: auto; }
+
+.search-dropdown-container .drop-search-container:before {
+  right: 35px;
+  left: auto; }
+
+.link-one:before {
+  right: 0;
+  left: auto; }
+
+.statistics-card .statistics-card-content .statistics-card-text {
+  font-size: 14px; }
+
+.win-list-timeline__items .win-list-timeline__item span.win-list-timeline__text, .win-list-timeline__items .win-list-timeline__item span.win-list-timeline__time {
+  text-align: right; }
+
+.win-list-timeline__items .win-list-timeline__item .win-list-timeline__time {
+  padding-right: 0; }
+
+.link-one:before {
+  bottom: 0; }
+
+.users-statistics-list li p {
+  font-size: 14px; }
+
+.m-switch.m-switch--icon input ~ i:after {
+  right: 80px;
+  left: auto; }
+
+.m-switch input:checked ~ span:after {
+  margin-right: 34px; }
+
+.select-number-container {
+  direction: ltr; }
+  .select-number-container .sa-dropdown .btn {
+    height: 43px; }
+  .select-number-container .pr-2 {
+    padding-right: .5rem !important;
+    padding-left: 15px !important; }
+  .select-number-container .pl-0 {
+    padding-left: 0 !important;
+    padding-right: 15px !important; }
+  .select-number-container .sa-dropdown-menu {
+    text-align: left; }
+  .select-number-container .form-group {
+    text-align: left; }
+
+#win_aside_left {
+  box-shadow: -4px 8px 9px 0px rgba(0, 0, 0, 0.05); }
+
+@media (min-width: 1025px) {
+  body.aside-left-skin-dark-win .win-header .win-header-head {
+    box-shadow: -4px 8px 9px 0px rgba(0, 0, 0, 0.05); } }
+.my-breadcrumb i {
+  padding-left: 3px;
+  padding-right: 0; }
+
+.statistics-card.grayF-card .fs-11, .statistics-card.black-card .fs-11 {
+  font-size: 13px !important; }
+
+.input-group > .input-group-append > .btn {
+  height: 43px; }
+
+.swal2-popup .swal2-actions button:last-child {
+  border-right: 1px solid #D6D6D6 !important;
+  border-left: 0 !important; }
+
+.win-checkbox > span:after {
+  transform: rotate(45deg); }
+
+.you {
+  float: right; }
+
+.me {
+  float: left;
+  direction: ltr; }
+
+.you .img {
+  margin-right: 0;
+  margin-left: 8px; }
+
+.me .img {
+  margin-left: 0;
+  margin-right: 8px; }
+
+/*# sourceMappingURL=rtl.css.map */
