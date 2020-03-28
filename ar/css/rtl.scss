@@ -238,3 +238,7 @@ html,body,.bootstrap-select .dropdown-toggle .filter-option,.m-form__group .form
     right: 0;
   }
 }
+.modal-2.modal .modal-content .modal-footer button:first-child{
+  border-right: 0;
+  border-left: 1px solid #D6D6D6;
+}
