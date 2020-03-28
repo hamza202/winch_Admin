@@ -274,4 +274,7 @@ html, body, .bootstrap-select .dropdown-toggle .filter-option, .m-form__group .f
   margin-left: 0;
   margin-right: 8px; }
 
+.m-form__group .parsley-errors-list {
+  right: 0; }
+
 /*# sourceMappingURL=rtl.css.map */

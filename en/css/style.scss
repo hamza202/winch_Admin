@@ -37,12 +37,14 @@ $color-map: (
     color: $color;
   }
   .btn-#{$name} {
+    transition: all ease-in-out 0.3s;
     background-color: $color;
     border-color: $color;
+    box-shadow: 0px 5px 10px 2px rgba($color, 0.19) !important;
 
     &:hover {
-      background-color: transparent;
-      color: $color;
+      box-shadow: 0px 5px 10px 2px rgba($color, 0.36) !important;
+      background-color: darken($color, 9%)
     }
   }
   .win-badge-#{$name} {
@@ -339,12 +341,12 @@ a {
 
 .win-topbar .win-topbar__nav.win-nav > .win-nav__item.win-topbar__notifications.win-topbar__notifications--img.win-dropdown--arrow .win-dropdown__arrow,
 .win-topbar .win-topbar__nav.win-nav > .win-nav__item.win-topbar__user-profile.win-topbar__user-profile--img.win-dropdown--arrow .win-dropdown__arrow {
-  color: $yellow;
+  color: #515151;
 }
 
 .win-dropdown.win-dropdown--header-bg-fill .win-dropdown__header .win-dropdown__header-title {
   padding: 0;
-  color: $black;
+  color: white;
   font-size: 1.4rem;
 }
 
@@ -384,7 +386,7 @@ a {
 }
 
 .win-dropdown.win-dropdown--header-bg-fill .win-dropdown__header {
-  background-color: $yellow;
+  background-color: #515151;
 }
 
 .win-list-timeline .win-list-timeline__items:before,
@@ -973,18 +975,20 @@ input[type=number]::-webkit-outer-spin-button {
 .action-icon {
   font-size: 18px;
   padding: 0 2px;
+  display: inline-block;
 }
 
 .table-pagination {
   text-align: right;
-//nav{
-//
-//}
+  //nav{
+  //
+  //}
   ul {
     li {
-      &:not(:last-child){
+      &:not(:last-child) {
         margin-right: .7rem;
       }
+
       &.active {
         a {
           background-color: $black;
@@ -1008,6 +1012,7 @@ input[type=number]::-webkit-outer-spin-button {
           color: $black;
         }
       }
+
       span {
         display: flex;
         width: 35px;
@@ -1024,21 +1029,25 @@ input[type=number]::-webkit-outer-spin-button {
           color: $black;
         }
       }
-      &.active .page-link{
+
+      &.active .page-link {
         background-color: $black;
         color: white;
       }
     }
   }
 }
-.page-link{
+
+.page-link {
   border: 0 !important;
 }
-.page-item:last-child .page-link{
+
+.page-item:last-child .page-link {
   border-radius: 50%;
   font-size: 22px;
 }
-.page-item:first-child .page-link{
+
+.page-item:first-child .page-link {
   border-radius: 50%;
   font-size: 22px;
 }
@@ -1050,9 +1059,11 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 14px;
   }
 }
-.pagination{
+
+.pagination {
   justify-content: flex-end;
 }
+
 .swal2-popup {
   box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.07);
   border-radius: 15px !important;
@@ -1439,25 +1450,6 @@ input[type=number]::-webkit-outer-spin-button {
   content: '';
 }
 
-.m-switch.m-switch--icon input ~ i:after {
-  content: 'off';
-  left: 80px;
-  position: absolute;
-  top: 5px;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.m-switch.m-switch--icon input:checked ~ i:after {
-  content: 'on';
-  left: 80px;
-  position: absolute;
-  top: 5px;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: normal;
-}
 
 .m-portlet {
   box-shadow: none;
@@ -2290,6 +2282,7 @@ span.infobox_rate {
     color: $black;
   }
 }
+
 .alert.m-alert--outline.alert-success {
   border-color: $green;
   color: $green;
@@ -2299,6 +2292,7 @@ span.infobox_rate {
     color: $green;
   }
 }
+
 .alert.m-alert--outline.alert-info {
   border-color: $blue;
   color: $blue;
@@ -2308,6 +2302,7 @@ span.infobox_rate {
     color: $blue;
   }
 }
+
 .alert.m-alert--outline.alert-danger {
   border-color: $red;
   color: $red;
@@ -2324,22 +2319,140 @@ span.infobox_rate {
   height: 35px;
   border-radius: 50%;
 }
-.datepicker tbody tr>td.day.today:before{
+
+.datepicker tbody tr > td.day.today:before {
   display: none;
 }
-.datepicker tbody tr>td.day.today{
+
+.datepicker tbody tr > td.day.today {
   background: rgba($yellow, 0.5);
   color: $black;
 }
-.datepicker tbody tr>td.day.selected, .datepicker tbody tr>td.day.selected:hover, .datepicker tbody tr>td.day.active, .datepicker tbody tr>td.day.active:hover{
+
+.datepicker tbody tr > td.day.selected, .datepicker tbody tr > td.day.selected:hover, .datepicker tbody tr > td.day.active, .datepicker tbody tr > td.day.active:hover {
   background: $yellow;
   color: $black;
 }
-.datepicker .datepicker-switch{
+
+.datepicker .datepicker-switch {
   border-radius: 4px !important;
 }
+
 .datepicker table tr td span.active.active.focus, .datepicker table tr td span.active.active:focus, .datepicker table tr td span.active.active:hover, .datepicker table tr td span.active.disabled.active.focus, .datepicker table tr td span.active.disabled.active:focus, .datepicker table tr td span.active.disabled.active:hover, .datepicker table tr td span.active.disabled:active.focus, .datepicker table tr td span.active.disabled:active:focus, .datepicker table tr td span.active.disabled:active:hover, .datepicker table tr td span.active.disabled:hover.active.focus, .datepicker table tr td span.active.disabled:hover.active:focus, .datepicker table tr td span.active.disabled:hover.active:hover, .datepicker table tr td span.active.disabled:hover:active.focus, .datepicker table tr td span.active.disabled:hover:active:focus, .datepicker table tr td span.active.disabled:hover:active:hover, .datepicker table tr td span.active:active.focus, .datepicker table tr td span.active:active:focus, .datepicker table tr td span.active:active:hover, .datepicker table tr td span.active:hover.active.focus, .datepicker table tr td span.active:hover.active:focus, .datepicker table tr td span.active:hover.active:hover, .datepicker table tr td span.active:hover:active.focus, .datepicker table tr td span.active:hover:active:focus, .datepicker table tr td span.active:hover:active:hover,
-.datepicker tbody tr>td span.month.active:hover, .datepicker tbody tr>td span.month.active ,.datepicker table tr td span.active.active{
+.datepicker tbody tr > td span.month.active:hover, .datepicker tbody tr > td span.month.active, .datepicker table tr td span.active.active {
   background-color: $yellow;
   color: $black;
+}
+
+.win-topbar .win-topbar__nav.win-nav > .win-nav__item > .win-nav__link .win-topbar__userpic img {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.parent-row {
+  td {
+    font-weight: 600 !important;
+    border-bottom: 1px solid #D6D6D6 !important;
+    border-top: 1px solid #D6D6D6 !important;
+    background: rgba(240, 240, 240, 0.39) !important;
+
+    &:first-child {
+      border-left: 1px solid #D6D6D6 !important;
+    }
+
+    &:last-child {
+      border-right: 1px solid #D6D6D6 !important;
+    }
+  }
+}
+
+.new-row {
+  td {
+    font-weight: 600 !important;
+    background: rgba($green, 0.15) !important;
+  }
+}
+
+.ui-sortable-helper {
+  display: flex !important;
+
+  td {
+    flex-grow: 1 !important;
+
+    &:first-child {
+      flex-grow: 0 !important;
+    }
+  }
+}
+
+.m-form__group {
+  position: relative;
+
+  .parsley-errors-list {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    margin: 0;
+
+    li {
+      color: $pink;
+    }
+  }
+}
+
+input.parsley-error {
+  border: 1px solid $pink !important;
+}
+
+.ltr {
+  direction: ltr !important;
+  text-align: left;
+}
+
+.rtl {
+  direction: rtl !important;
+  text-align: right;
+}
+
+.modal-2.modal {
+  .modal-content {
+    border-radius: 8px;
+    overflow: hidden;
+    .modal-footer {
+      padding: 0;
+      border-top: 1px solid #D6D6D6;
+      overflow: hidden;
+      button {
+        display: inline-block;
+        width: 50%;
+        margin: 0;
+        border: 0;
+        background-color: transparent;
+        padding: 10px;
+        cursor: pointer;
+        transition: all ease-in-out 0.3s;
+        &:first-child {
+          border-right: 1px solid #D6D6D6;
+        }
+        &.yes-btn{
+          color: $green;
+          &:hover{
+            background-color: $green;
+            color: #fff;
+          }
+        }
+        &.no-btn{
+          color: $gray;
+          &:hover{
+            background-color: $pink;
+            color:#fff
+          }
+        }
+      }
+    }
+  }
 }

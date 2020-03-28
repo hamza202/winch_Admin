@@ -233,3 +233,8 @@ html,body,.bootstrap-select .dropdown-toggle .filter-option,.m-form__group .form
   margin-left: 0;
   margin-right: 8px;
 }
+.m-form__group{
+  .parsley-errors-list{
+    right: 0;
+  }
+}
