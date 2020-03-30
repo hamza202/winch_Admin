@@ -2456,3 +2456,8 @@ input.parsley-error {
     }
   }
 }
+.uploadfile-preview{
+  div{
+    @extend %ellipsis;
+  }
+}

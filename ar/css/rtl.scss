@@ -242,3 +242,15 @@ html,body,.bootstrap-select .dropdown-toggle .filter-option,.m-form__group .form
   border-right: 0;
   border-left: 1px solid #D6D6D6;
 }
+.uploadfile:before{
+  left: auto;
+  right: 47px;
+  content: 'اختر صورة';
+}
+.uploadfile:after{
+  background-position: right;
+}
+.uploadfile-preview img{
+  margin-right: 0;
+  margin-left: 10px;
+}

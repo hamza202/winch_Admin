@@ -360,7 +360,7 @@
 .fs-30 {
   font-size: 30px !important; }
 
-.ellipsis {
+.ellipsis, .uploadfile-preview div {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
