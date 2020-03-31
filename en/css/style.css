@@ -408,7 +408,7 @@
 .btn {
   border-radius: 8px;
   color: white;
-  font-weight: 500; }
+  font-weight: 600; }
 
 body {
   font-family: "Roboto", sans-serif;
@@ -858,7 +858,7 @@ a.link {
   font-weight: 500; }
 
 .m-form__group label {
-  font-weight: 500; }
+  font-weight: 600; }
 .m-form__group .form-control {
   color: #2A2A2A;
   border-color: #DDDFE1;
@@ -1943,5 +1943,8 @@ input.parsley-error {
         .modal-2.modal .modal-content .modal-footer button.no-btn:hover {
           background-color: #FF326E;
           color: #fff; }
+
+.h-119 textarea {
+  height: 119px; }
 
 /*# sourceMappingURL=style.css.map */

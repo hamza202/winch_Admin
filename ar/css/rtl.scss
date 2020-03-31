@@ -254,3 +254,12 @@ html,body,.bootstrap-select .dropdown-toggle .filter-option,.m-form__group .form
   margin-right: 0;
   margin-left: 10px;
 }
+.win-aside-menu.win-aside-menu--skin-light .win-menu__nav > .win-menu__item.win-menu__item--active > .win-menu__link:after{
+  right: auto;
+  left: 0;
+}
+.h-119{
+  textarea{
+    height: 129px;
+  }
+}
