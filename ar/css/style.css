@@ -1976,4 +1976,39 @@ input.parsley-error {
 body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown), html.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
   overflow: hidden; }
 
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%; }
+
+.circular--portrait img {
+  width: 100%;
+  height: auto; }
+
+.square--250-portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden; }
+
+.square--250-portrait img {
+  width: 250px;
+  height: 250px; }
+
+.btn-custom-size {
+  padding: .2rem .8rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: .2rem; }
+
+.pulsing-row td {
+  font-weight: 700 !important;
+  background: rgba(255, 194, 15, 0.1) !important; }
+
+.pulsing-row-animation {
+  -webkit-animation: flash linear 4s infinite;
+  animation: flash linear 4s infinite; }
+
 /*# sourceMappingURL=style.css.map */
