@@ -6,12 +6,14 @@
       <change beforePath="$PROJECT_DIR$/ar/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/ar/css/rtl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ar/css/rtl.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/ar/css/rtl.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ar/css/rtl.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ar/css/rtl.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ar/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ar/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ar/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/ar/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ar/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ar/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/provider.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/provider.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ar/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/ar/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/business.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/business.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/en/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/en/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/en/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/en/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/settings.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +122,8 @@
       <workItem from="1585003010604" duration="1509000" />
       <workItem from="1585328594725" duration="13706000" />
       <workItem from="1585521882825" duration="6579000" />
-      <workItem from="1585626778091" duration="6372000" />
+      <workItem from="1585626778091" duration="6538000" />
+      <workItem from="1586377368814" duration="5297000" />
     </task>
     <servers />
   </component>

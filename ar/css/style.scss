@@ -44,7 +44,8 @@ $color-map: (
 
     &:hover {
       box-shadow: 0px 5px 10px 2px rgba($color, 0.36) !important;
-      background-color: darken($color, 9%)
+      background-color: darken($color, 9%);
+      color: white ;
     }
   }
   .win-badge-#{$name} {
@@ -775,7 +776,19 @@ li.lang-change {
         color: $blue;
       }
     }
+    .statistics-card-text {
+      color: $black;
+    }
+  }
 
+  &.text-yellow-card {
+    color: $yellow;
+
+    .statistics-card-icon-container {
+      & > span {
+        color: $yellow;
+      }
+    }
     .statistics-card-text {
       color: $black;
     }
@@ -2465,4 +2478,20 @@ input.parsley-error {
   textarea{
     height: 119px;
   }
+}
+.note-toolbar{
+  .btn{
+    color: $black;
+  }
+}
+.chart-wrapper #chartjs-tooltip p{
+  text-align: center;
+}
+.label-width-auto{
+  .win-badge.win-badge--wide{
+    width: auto;
+  }
+}
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown), html.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+  overflow: hidden;
 }

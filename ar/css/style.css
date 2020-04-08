@@ -13,7 +13,8 @@
   box-shadow: 0px 5px 10px 2px rgba(255, 194, 15, 0.19) !important; }
   .btn-yellow:hover {
     box-shadow: 0px 5px 10px 2px rgba(255, 194, 15, 0.36) !important;
-    background-color: #e0a700; }
+    background-color: #e0a700;
+    color: white; }
 
 .win-badge-yellow {
   background-color: #FFC20F;
@@ -40,7 +41,8 @@
   box-shadow: 0px 5px 10px 2px rgba(43, 190, 101, 0.19) !important; }
   .btn-green:hover {
     box-shadow: 0px 5px 10px 2px rgba(43, 190, 101, 0.36) !important;
-    background-color: #239951; }
+    background-color: #239951;
+    color: white; }
 
 .win-badge-green {
   background-color: #2BBE65;
@@ -67,7 +69,8 @@
   box-shadow: 0px 5px 10px 2px rgba(26, 123, 255, 0.19) !important; }
   .btn-blue:hover {
     box-shadow: 0px 5px 10px 2px rgba(26, 123, 255, 0.36) !important;
-    background-color: #0064eb; }
+    background-color: #0064eb;
+    color: white; }
 
 .win-badge-blue {
   background-color: #1A7BFF;
@@ -94,7 +97,8 @@
   box-shadow: 0px 5px 10px 2px rgba(250, 109, 66, 0.19) !important; }
   .btn-orange:hover {
     box-shadow: 0px 5px 10px 2px rgba(250, 109, 66, 0.36) !important;
-    background-color: #f94a15; }
+    background-color: #f94a15;
+    color: white; }
 
 .win-badge-orange {
   background-color: #FA6D42;
@@ -121,7 +125,8 @@
   box-shadow: 0px 5px 10px 2px rgba(255, 50, 110, 0.19) !important; }
   .btn-pink:hover {
     box-shadow: 0px 5px 10px 2px rgba(255, 50, 110, 0.36) !important;
-    background-color: #ff044e; }
+    background-color: #ff044e;
+    color: white; }
 
 .win-badge-pink {
   background-color: #FF326E;
@@ -148,7 +153,8 @@
   box-shadow: 0px 5px 10px 2px rgba(42, 42, 42, 0.19) !important; }
   .btn-black:hover {
     box-shadow: 0px 5px 10px 2px rgba(42, 42, 42, 0.36) !important;
-    background-color: #131313; }
+    background-color: #131313;
+    color: white; }
 
 .win-badge-black {
   background-color: #2A2A2A;
@@ -175,7 +181,8 @@
   box-shadow: 0px 5px 10px 2px rgba(119, 119, 119, 0.19) !important; }
   .btn-gray:hover {
     box-shadow: 0px 5px 10px 2px rgba(119, 119, 119, 0.36) !important;
-    background-color: #606060; }
+    background-color: #606060;
+    color: white; }
 
 .win-badge-gray {
   background-color: #777777;
@@ -202,7 +209,8 @@
   box-shadow: 0px 5px 10px 2px rgba(136, 136, 136, 0.19) !important; }
   .btn-gray8:hover {
     box-shadow: 0px 5px 10px 2px rgba(136, 136, 136, 0.36) !important;
-    background-color: #717171; }
+    background-color: #717171;
+    color: white; }
 
 .win-badge-gray8 {
   background-color: #888888;
@@ -229,7 +237,8 @@
   box-shadow: 0px 5px 10px 2px rgba(171, 175, 179, 0.19) !important; }
   .btn-grayA:hover {
     box-shadow: 0px 5px 10px 2px rgba(171, 175, 179, 0.36) !important;
-    background-color: #93989d; }
+    background-color: #93989d;
+    color: white; }
 
 .win-badge-grayA {
   background-color: #ABAFB3;
@@ -256,7 +265,8 @@
   box-shadow: 0px 5px 10px 2px rgba(214, 214, 214, 0.19) !important; }
   .btn-grayD:hover {
     box-shadow: 0px 5px 10px 2px rgba(214, 214, 214, 0.36) !important;
-    background-color: #bfbfbf; }
+    background-color: #bfbfbf;
+    color: white; }
 
 .win-badge-grayD {
   background-color: #D6D6D6;
@@ -283,7 +293,8 @@
   box-shadow: 0px 5px 10px 2px rgba(241, 241, 241, 0.19) !important; }
   .btn-grayF:hover {
     box-shadow: 0px 5px 10px 2px rgba(241, 241, 241, 0.36) !important;
-    background-color: #dadada; }
+    background-color: #dadada;
+    color: white; }
 
 .win-badge-grayF {
   background-color: #F1F1F1;
@@ -802,6 +813,12 @@ li.lang-change a:hover span {
     .statistics-card.text-blue-card .statistics-card-icon-container > span {
       color: #1A7BFF; }
     .statistics-card.text-blue-card .statistics-card-text {
+      color: #2A2A2A; }
+  .statistics-card.text-yellow-card {
+    color: #FFC20F; }
+    .statistics-card.text-yellow-card .statistics-card-icon-container > span {
+      color: #FFC20F; }
+    .statistics-card.text-yellow-card .statistics-card-text {
       color: #2A2A2A; }
 
 .win-scroller:not(.win-scrollable--track) > .ps__rail-y, .win-scrollable:not(.win-scrollable--track) > .ps__rail-y {
@@ -1946,5 +1963,17 @@ input.parsley-error {
 
 .h-119 textarea {
   height: 119px; }
+
+.note-toolbar .btn {
+  color: #2A2A2A; }
+
+.chart-wrapper #chartjs-tooltip p {
+  text-align: center; }
+
+.label-width-auto .win-badge.win-badge--wide {
+  width: auto; }
+
+body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown), html.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+  overflow: hidden; }
 
 /*# sourceMappingURL=style.css.map */
