@@ -1997,6 +1997,9 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown), html.swal2-sho
   width: 250px;
   height: 250px; }
 
+.swal2-input:focus {
+  border-color: #FFC20F; }
+
 .btn-custom-size {
   padding: .2rem .8rem;
   font-size: .875rem;

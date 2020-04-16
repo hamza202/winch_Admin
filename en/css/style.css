@@ -885,6 +885,12 @@ a.link {
   .m-form__group .form-control:focus {
     border-color: #FFC20F; }
 
+.swal2-input {
+  width: 100%; }
+
+.swal2-input:focus {
+  border-color: #FFC20F; }
+
 .bootstrap-select.show > .dropdown-toggle.btn-light, .bootstrap-select.show > .dropdown-toggle.btn-secondary,
 .bootstrap-select > .dropdown-toggle.btn-light:focus, .bootstrap-select > .dropdown-toggle.btn-light.active, .bootstrap-select > .dropdown-toggle.btn-secondary:focus, .bootstrap-select > .dropdown-toggle.btn-secondary.active {
   border-color: #FFC20F !important; }
@@ -1994,8 +2000,6 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown), html.swal2-sho
   overflow: hidden; }
 
 .square--250-portrait img {
-  width: 100%;
-  height: auto;
   width: 250px;
   height: 250px; }
 
