@@ -782,11 +782,11 @@ li.lang-change {
   }
 
   &.text-yellow-card {
-    color: $yellow;
+    color: $black;
 
     .statistics-card-icon-container {
       & > span {
-        color: $yellow;
+        color: $black;
       }
     }
     .statistics-card-text {
@@ -892,9 +892,11 @@ a.link {
 }
 .swal2-input{
   width: 100%;
+  max-width: 100%;
 }
-.swal2-input:focus{
+.swal2-popup .swal2-input:focus{
   border-color: $yellow;
+  box-shadow: none;
 }
 .bootstrap-select.show > .dropdown-toggle.btn-light, .bootstrap-select.show > .dropdown-toggle.btn-secondary,
 .bootstrap-select > .dropdown-toggle.btn-light:focus, .bootstrap-select > .dropdown-toggle.btn-light.active, .bootstrap-select > .dropdown-toggle.btn-secondary:focus, .bootstrap-select > .dropdown-toggle.btn-secondary.active {

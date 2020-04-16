@@ -815,9 +815,9 @@ li.lang-change a:hover span {
     .statistics-card.text-blue-card .statistics-card-text {
       color: #2A2A2A; }
   .statistics-card.text-yellow-card {
-    color: #FFC20F; }
+    color: #2A2A2A; }
     .statistics-card.text-yellow-card .statistics-card-icon-container > span {
-      color: #FFC20F; }
+      color: #2A2A2A; }
     .statistics-card.text-yellow-card .statistics-card-text {
       color: #2A2A2A; }
 
@@ -886,10 +886,12 @@ a.link {
     border-color: #FFC20F; }
 
 .swal2-input {
-  width: 100%; }
+  width: 100%;
+  max-width: 100%; }
 
-.swal2-input:focus {
-  border-color: #FFC20F; }
+.swal2-popup .swal2-input:focus {
+  border-color: #FFC20F;
+  box-shadow: none; }
 
 .bootstrap-select.show > .dropdown-toggle.btn-light, .bootstrap-select.show > .dropdown-toggle.btn-secondary,
 .bootstrap-select > .dropdown-toggle.btn-light:focus, .bootstrap-select > .dropdown-toggle.btn-light.active, .bootstrap-select > .dropdown-toggle.btn-secondary:focus, .bootstrap-select > .dropdown-toggle.btn-secondary.active {
