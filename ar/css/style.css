@@ -887,7 +887,7 @@ a.link {
 
 .swal2-input {
   width: 100%;
-  max-width: 100%; }
+  max-width: 100% !important; }
 
 .swal2-popup .swal2-input:focus {
   border-color: #FFC20F;
