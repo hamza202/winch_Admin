@@ -887,7 +887,7 @@ a.link {
 
 .swal2-input {
   width: 100%;
-  max-width: 100% !important; }
+  max-width: 100%; }
 
 .swal2-popup .swal2-input:focus {
   border-color: #FFC20F;
@@ -2018,5 +2018,13 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown), html.swal2-sho
 .pulsing-row-animation {
   -webkit-animation: flash linear 4s infinite;
   animation: flash linear 4s infinite; }
+
+.win-aside-menu.win-aside-menu--skin-light .win-menu__nav > .win-menu__item.win-menu__item--active > .win-menu__link .win-menu__link-icon svg {
+  transition: all ease-in-out 0.3s; }
+  .win-aside-menu.win-aside-menu--skin-light .win-menu__nav > .win-menu__item.win-menu__item--active > .win-menu__link .win-menu__link-icon svg path:last-child {
+    fill: #545874 !important; }
+
+.win-menu__item:hover .win-menu__link-icon svg path:last-child {
+  fill: #545874 !important; }
 
 /*# sourceMappingURL=style.css.map */
