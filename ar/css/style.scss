@@ -2558,3 +2558,25 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown), html.swal2-sho
     }
   }
 }
+.transport-routes .collapsible {
+  cursor: pointer;
+  position: relative;
+}
+
+.transport-routes .collapsible i{
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  font-size:15px;
+  color: #9a9caf;
+  transform: translateY(-50%) rotatez(0deg);
+  transition: all ease-in-out 0.4s;
+}
+.transport-routes .collapsible.active i{
+  transform: translateY(-50%) rotatez(-90deg);
+}
+.transport-routes .content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
